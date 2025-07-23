@@ -1,0 +1,9270 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "04c76981-acda-401e-9750-383767394223")
+	(paper "A4")
+	(lib_symbols
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Capacitor_AKL:C_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0805"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.381 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -1.651 0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy -0.635 1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.651 -0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_0805_1_2"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Capacitor_US_AKL:C_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0805"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.381 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -1.651 0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy -0.635 1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.651 -0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_0805_1_2"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Resistor_US_AKL:R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor us SMD 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0.762 1.905) (xy -0.762 1.143) (xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381)
+						(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy -1.778 -0.762) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.762 0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.254 -1.27) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.254 1.27) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.762 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.778 0.762) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_0603_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 36.83 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "186cf711-3442-4f1d-bfe6-95fd278a1f31")
+	)
+	(junction
+		(at 36.83 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ee9ca6-9df5-43e2-b99e-380d0b21bea1")
+	)
+	(junction
+		(at 48.26 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec7cc03f-e388-43c8-8b0d-d03896325925")
+	)
+	(wire
+		(pts
+			(xy 63.5 161.29) (xy 66.04 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04784087-cc63-4406-806e-444237624173")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05788684-b00c-4460-8a05-480a55a27abe")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 163.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0854add4-73cd-415f-8ca7-5718d9a41dab")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 119.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08681462-612a-48a6-98cb-5adf17a47dec")
+	)
+	(wire
+		(pts
+			(xy 105.41 140.97) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090ceb5e-cbf4-40f9-8b39-5a554d09724a")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3e2974-ee3a-4e4f-bbd8-d50444dc2bfa")
+	)
+	(wire
+		(pts
+			(xy 46.99 41.91) (xy 49.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa6ab82-4993-482b-b4d7-24af397e67c1")
+	)
+	(wire
+		(pts
+			(xy 40.64 72.39) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3d3d1e-23ee-4815-81f8-6c39bacbe795")
+	)
+	(wire
+		(pts
+			(xy 128.27 140.97) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb06788-0f65-4f7f-8512-53e4ca6c719d")
+	)
+	(wire
+		(pts
+			(xy 97.79 140.97) (xy 95.25 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107e085b-4ef3-4b1c-833b-c53fa671b736")
+	)
+	(wire
+		(pts
+			(xy 69.85 100.33) (xy 69.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129661c0-2ee2-4bb6-95f9-06bd8c100ff9")
+	)
+	(wire
+		(pts
+			(xy 162.56 176.53) (xy 157.48 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1350feb2-a504-47a9-8346-0a918c6e443a")
+	)
+	(wire
+		(pts
+			(xy 116.84 161.29) (xy 116.84 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178c3ab5-8247-4ca9-a0f8-4bcbfc21c7bb")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 156.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18347362-5d6d-4d8a-ac66-a811b0ca56b3")
+	)
+	(wire
+		(pts
+			(xy 109.22 161.29) (xy 111.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b7c85e-291a-4090-98c0-dc5e00a6643e")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 156.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f9e646-4c68-4f10-8247-8d22c0fa5e22")
+	)
+	(wire
+		(pts
+			(xy 36.83 22.86) (xy 48.26 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbda154-73d6-48e5-9629-68d29890e1c7")
+	)
+	(wire
+		(pts
+			(xy 115.57 100.33) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e78aa40-35c0-415b-874b-1ae44bb05e17")
+	)
+	(wire
+		(pts
+			(xy 162.56 161.29) (xy 162.56 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f73a6ae-03a2-4b8b-b33e-11e1d77029a5")
+	)
+	(wire
+		(pts
+			(xy 85.09 100.33) (xy 85.09 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202f1459-d2bf-4381-991d-a6a3465e4f35")
+	)
+	(wire
+		(pts
+			(xy 140.97 115.57) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21571bae-64ae-4979-a47f-b865536cf0ba")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 73.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2159463c-15c3-4dc7-9d18-b366adaedd75")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.77) (xy 109.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24316407-7e6e-4d50-9186-55c23914c7bc")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa17bc3-8b2c-4174-a3e5-b58ba318321c")
+	)
+	(wire
+		(pts
+			(xy 138.43 100.33) (xy 140.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5393ca-7474-4484-b1db-8df975f2db40")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b96305b-f03b-491d-9192-558d52c0acb6")
+	)
+	(wire
+		(pts
+			(xy 33.02 15.24) (xy 36.83 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c521fae-b3e3-46d6-9af1-52ecefc46e26")
+	)
+	(wire
+		(pts
+			(xy 74.93 125.73) (xy 80.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e498d9a-3a00-41f2-a884-38b9b46b7c16")
+	)
+	(wire
+		(pts
+			(xy 86.36 161.29) (xy 86.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec6727f-44fc-402c-baa8-8173bc2bd593")
+	)
+	(wire
+		(pts
+			(xy 69.85 115.57) (xy 64.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff6e3b3-7538-4e86-b56d-461858fb8767")
+	)
+	(wire
+		(pts
+			(xy 48.26 15.24) (xy 50.8 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c3293b-a08d-4a15-afdf-67baddf04b13")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fe064c-5cdf-4b6b-ab2d-81afb9642f7e")
+	)
+	(wire
+		(pts
+			(xy 43.18 80.01) (xy 43.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cd3402-c132-44bb-a10e-98180e498348")
+	)
+	(wire
+		(pts
+			(xy 49.53 115.57) (xy 54.61 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358464f5-59ce-45b2-8f45-d66129bca23c")
+	)
+	(wire
+		(pts
+			(xy 41.91 133.35) (xy 41.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36728965-c129-487f-a9db-d607a3589d10")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 125.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c49e41-c005-4b69-be97-44a4aff2b3ba")
+	)
+	(wire
+		(pts
+			(xy 80.01 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d751d0-4221-4412-8a73-53c9478abcf1")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a288c75-bd3d-4a03-b05b-68a88cc60e66")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bde01e7-5ea2-4baf-a3ad-15a46c4e3921")
+	)
+	(wire
+		(pts
+			(xy 78.74 161.29) (xy 81.28 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d20b5cd-d7c3-4a27-af0a-8a3a578ec7ce")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 168.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d65e813-fac4-4387-a956-315601020c98")
+	)
+	(wire
+		(pts
+			(xy 167.64 133.35) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee22430-2971-4075-b62d-f16370fb7856")
+	)
+	(wire
+		(pts
+			(xy 120.65 140.97) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e8f9d6-64c4-41e6-9eeb-e5106b381e9f")
+	)
+	(wire
+		(pts
+			(xy 113.03 140.97) (xy 110.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4231199d-9015-42d7-8d20-c6c789d2f53a")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4306109a-c322-41be-adb7-15caaa9307c1")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43480466-e9e2-4bd3-a9c7-7701ff32c71e")
+	)
+	(wire
+		(pts
+			(xy 101.6 161.29) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a9377d-3c1b-42ea-9b78-c02a1ea32ddc")
+	)
+	(wire
+		(pts
+			(xy 48.26 161.29) (xy 50.8 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a1255a-e0f9-417c-82e3-8a49dd24681d")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a781fb-7e69-49ad-bee1-bb19d73e139c")
+	)
+	(wire
+		(pts
+			(xy 73.66 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a10f29f-8d78-40e4-8110-d4d7007bc830")
+	)
+	(wire
+		(pts
+			(xy 40.64 107.95) (xy 41.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce6a403-0605-476d-92b7-c7a3f530f4e9")
+	)
+	(wire
+		(pts
+			(xy 90.17 140.97) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d49f939-c2a6-45f5-b8c4-e82934221e7f")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4582e2-d3b6-4536-b1bb-73c0163aead0")
+	)
+	(wire
+		(pts
+			(xy 54.61 41.91) (xy 54.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddf7890-2a02-4036-98e0-4c1636606155")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e24be5b-dec6-44e2-b3f1-dc3005b368c4")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f60f108-cc2e-4f2d-a7ef-bb939cd0c43b")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 104.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6678cc9a-b82b-4712-8a56-73dc61cfaddc")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667ef786-360f-4abf-9a78-3eace317944b")
+	)
+	(wire
+		(pts
+			(xy 62.23 100.33) (xy 64.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69098632-1ae3-43a7-9cc3-f6b2e2ff859b")
+	)
+	(wire
+		(pts
+			(xy 124.46 161.29) (xy 127 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ab3248-94d3-4ecf-adb3-b35cdf517cc7")
+	)
+	(wire
+		(pts
+			(xy 85.09 41.91) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1fd9e1-906a-4f57-8c7a-a98117e61d08")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c292f79-65f2-46f0-84c0-0ff0e7e8923f")
+	)
+	(wire
+		(pts
+			(xy 88.9 80.01) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cac2f53-1684-4264-953d-f5225013a16d")
+	)
+	(wire
+		(pts
+			(xy 142.24 176.53) (xy 147.32 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0b6515-d170-4701-8baa-33f72673264b")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1b67c4-107c-4aa0-b56a-7be11734d641")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 140.97 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f809d3c-cf03-458b-babe-d886a96848d6")
+	)
+	(wire
+		(pts
+			(xy 71.12 161.29) (xy 71.12 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b243ab-d7b9-49a0-aed4-cb6bdcac7334")
+	)
+	(wire
+		(pts
+			(xy 21.59 22.86) (xy 36.83 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750e9d58-1222-4dd0-9530-234047889c16")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756178ac-c342-490b-8c0e-7900fc0ef9a3")
+	)
+	(wire
+		(pts
+			(xy 59.69 140.97) (xy 59.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fc0845-bc6d-4acb-bf1d-771ecc713557")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d494b73-2230-4eba-b05f-d1190a106d0e")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb04ad9-1101-4e10-9807-c5092a81b48f")
+	)
+	(wire
+		(pts
+			(xy 41.91 168.91) (xy 43.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ca4e15-ddb9-4087-93da-068bd8337dfe")
+	)
+	(wire
+		(pts
+			(xy 110.49 115.57) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e06821-1831-40ce-91fb-558777493440")
+	)
+	(wire
+		(pts
+			(xy 154.94 161.29) (xy 157.48 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d2ae8f-ba24-4ac6-8466-09d5f0e59584")
+	)
+	(wire
+		(pts
+			(xy 92.71 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8524d5da-3ca6-45da-a129-12d377fb3b30")
+	)
+	(wire
+		(pts
+			(xy 81.28 80.01) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861ffe46-2592-42ca-847b-b5340f0484cb")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c553b3-b10a-4a52-8349-d682222cdab1")
+	)
+	(wire
+		(pts
+			(xy 71.12 176.53) (xy 66.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b98b11f-78fb-49a4-acfd-2b3077566d8b")
+	)
+	(wire
+		(pts
+			(xy 43.18 64.77) (xy 48.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d63d037-fdc7-44f1-9a8c-70f33db5005b")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef6a0c2-d55c-41c3-829e-6dbd3fae741f")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 34.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93780a0f-663f-4ff0-975f-f2336e0c986f")
+	)
+	(wire
+		(pts
+			(xy 74.93 140.97) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987a24c3-f85f-4573-ac06-58192c980327")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d67d76d-ea47-4926-9c13-a18100767154")
+	)
+	(wire
+		(pts
+			(xy 147.32 161.29) (xy 147.32 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb9fe47-5044-4fed-86ac-455aadd8ea9f")
+	)
+	(wire
+		(pts
+			(xy 154.94 64.77) (xy 149.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0404a25-4a44-4219-832e-afaca4551779")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0af4c16-3c2e-4794-89b0-3367893550e5")
+	)
+	(wire
+		(pts
+			(xy 132.08 161.29) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ea5405-9979-4c1e-81ab-56d2b4fbeb0b")
+	)
+	(wire
+		(pts
+			(xy 96.52 80.01) (xy 93.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a322bb01-14cc-4a4a-9984-2e0087268321")
+	)
+	(wire
+		(pts
+			(xy 77.47 41.91) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3efa6b9-305b-46cf-9dcd-5a62ca8d1e83")
+	)
+	(wire
+		(pts
+			(xy 49.53 57.15) (xy 54.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54be9f6-e16c-40f6-a085-0badd1258a7b")
+	)
+	(wire
+		(pts
+			(xy 111.76 176.53) (xy 116.84 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d55a71-d337-4098-b066-e8bebfd7ce33")
+	)
+	(wire
+		(pts
+			(xy 36.83 15.24) (xy 48.26 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dd30b4-398f-4538-b5dc-6fed8871575d")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c12221-6d97-4d7c-977b-76def5886a76")
+	)
+	(wire
+		(pts
+			(xy 101.6 176.53) (xy 96.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0ab00b-4215-4d14-848b-da20499b1814")
+	)
+	(wire
+		(pts
+			(xy 100.33 41.91) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af54b01d-2f9b-4f44-8118-e0f1461b3bae")
+	)
+	(wire
+		(pts
+			(xy 130.81 57.15) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23b4f00-946b-4b82-a75c-79aaa8de3777")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b535c234-868f-4d2c-a47d-3289affdd944")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e3a64f-5958-4c1f-906c-8bec78e5fa50")
+	)
+	(wire
+		(pts
+			(xy 168.91 49.53) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70bc6ed-ea02-4200-a63f-4f083748b65a")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.77) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92cef15-6141-49dd-818c-0aa6d9fbc73f")
+	)
+	(wire
+		(pts
+			(xy 139.7 161.29) (xy 142.24 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c5ed0b-e099-4213-b257-56b60af79bb3")
+	)
+	(wire
+		(pts
+			(xy 158.75 140.97) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be99223f-176c-47dd-b248-522c03b161a4")
+	)
+	(wire
+		(pts
+			(xy 93.98 161.29) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0dc758-2d17-4a3d-b355-341d313efbe3")
+	)
+	(wire
+		(pts
+			(xy 80.01 115.57) (xy 85.09 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01c565e-ad83-4f7d-9e18-226821eb8552")
+	)
+	(wire
+		(pts
+			(xy 135.89 125.73) (xy 140.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0400a39-211b-4161-8267-4c3892873d85")
+	)
+	(wire
+		(pts
+			(xy 64.77 125.73) (xy 59.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31f8b52-b089-4db1-af55-07bfa5fb9032")
+	)
+	(wire
+		(pts
+			(xy 50.8 176.53) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c363d427-e893-46a0-acf7-2a24c86dbd71")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c375c99c-f707-465a-a7a2-0bd06468db0f")
+	)
+	(wire
+		(pts
+			(xy 44.45 125.73) (xy 49.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6a3a9a-4242-4302-83f1-1565e9523b2e")
+	)
+	(wire
+		(pts
+			(xy 55.88 161.29) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7c86fb-a6d2-40bd-90ee-dacbc3c1162f")
+	)
+	(wire
+		(pts
+			(xy 67.31 140.97) (xy 64.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda69b15-a67d-466a-903c-1565763e38c6")
+	)
+	(wire
+		(pts
+			(xy 161.29 41.91) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5cb91b-1dc7-4f98-ab85-5a92bf96a613")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe64336-8776-4b16-ab21-3c246d076b63")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27eeb16-000a-481c-a0b9-359b7599d308")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 119.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5882867-9893-44ce-b3af-4673aadda7c2")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64d2ff0-8dfb-403a-825b-1a7cf6a4b784")
+	)
+	(wire
+		(pts
+			(xy 81.28 176.53) (xy 86.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d756d73b-83fd-49cc-b978-d326b45e6cc5")
+	)
+	(wire
+		(pts
+			(xy 107.95 100.33) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf174f7-35b1-481b-b7f1-31be3bba4e74")
+	)
+	(wire
+		(pts
+			(xy 62.23 41.91) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda7811b-2300-4e78-a7ca-7b0e80f12ab1")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fdeea8-9344-4cd5-a372-279f3facf435")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17ea184-16e1-4e58-bda3-e30b05a2d3a0")
+	)
+	(wire
+		(pts
+			(xy 92.71 100.33) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39bcd23-a961-4c02-9f87-2c5785a6e94e")
+	)
+	(wire
+		(pts
+			(xy 156.21 125.73) (xy 151.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e452c000-7a74-4795-b138-494b6739cf0b")
+	)
+	(wire
+		(pts
+			(xy 93.98 64.77) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a63974-cf4a-4872-b0af-8087cf3b8a13")
+	)
+	(wire
+		(pts
+			(xy 151.13 140.97) (xy 151.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f60ab5-137f-4c38-a983-ae29c4807db6")
+	)
+	(wire
+		(pts
+			(xy 54.61 100.33) (xy 54.61 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1acf09-6522-4d4e-8080-cee2e46e44a7")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 167.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd3c95b-f0e3-4897-83e9-f32c85a5574b")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.77) (xy 139.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d33e73-4aa7-463a-83bf-42563569b07f")
+	)
+	(wire
+		(pts
+			(xy 135.89 140.97) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e09c4d-2320-4035-ad12-af613b0f8f8e")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 149.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f8092b-28d5-4eeb-a5dc-1594f42d2fd7")
+	)
+	(wire
+		(pts
+			(xy 52.07 140.97) (xy 49.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f689cc60-19be-4f08-b243-7505cd2d8545")
+	)
+	(wire
+		(pts
+			(xy 146.05 100.33) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77e40fb-90dd-4d05-bb53-61e886db5f36")
+	)
+	(wire
+		(pts
+			(xy 82.55 140.97) (xy 80.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85e84ce-e976-4c21-98ad-f79e7d9fac1f")
+	)
+	(wire
+		(pts
+			(xy 132.08 176.53) (xy 127 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f889a9ff-d8dd-4880-a0a6-9fa1130a05bc")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 44.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd91f8a2-f13f-4d1d-8eb2-693db2cb6279")
+	)
+	(label "LOCAL_GND"
+		(at 125.73 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0188b2c0-6d5b-4f90-80d8-691c65049a21")
+	)
+	(label "LOCAL_VIN"
+		(at 62.23 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04c8dd17-3a9f-4737-8ce3-b16b04c77ac6")
+	)
+	(label "LOCAL_VIN"
+		(at 96.52 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "075b6985-9e19-4c93-a2b1-c11fd2ef9c4b")
+	)
+	(label "LOCAL_VIN"
+		(at 66.04 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e3826c4-36d0-4115-b10d-839cc7c35bcf")
+	)
+	(label "LOCAL_GND"
+		(at 109.22 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12bb853e-7fe6-4b13-b306-22b5d9fd1f72")
+	)
+	(label "LOCAL_GND"
+		(at 49.53 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1383ba15-db9d-40fe-afb4-e3c706109617")
+	)
+	(label "LOCAL_VIN"
+		(at 107.95 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14f106e5-6eee-4318-9d29-1ecdb4b1fd09")
+	)
+	(label "LOCAL_VIN"
+		(at 124.46 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19843efa-1fdd-4e73-8b26-282340cd164b")
+	)
+	(label "LOCAL_GND"
+		(at 49.53 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cd91106-6e7e-46ad-a167-6c035fe10272")
+	)
+	(label "LOCAL_VIN"
+		(at 67.31 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e5a2610-9c55-4870-9e00-b584b1214360")
+	)
+	(label "LOCAL_GND"
+		(at 139.7 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2089b181-6703-4104-b6bb-0c18d76e6d76")
+	)
+	(label "LOCAL_VIN"
+		(at 77.47 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d9098e-e3bc-42f9-8c30-6fb1db4dfb4a")
+	)
+	(label "LOCAL_GND"
+		(at 93.98 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "258893e3-2d4e-404b-aa23-dc8127b2b05d")
+	)
+	(label "LOCAL_VIN"
+		(at 62.23 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2885897a-5bd2-4532-9c69-0b9e2777e19f")
+	)
+	(label "LOCAL_VIN"
+		(at 109.22 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "343a2b4e-4180-40cd-b801-7c5cd8a41da1")
+	)
+	(label "LOCAL_GND"
+		(at 22.86 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35739b44-c696-4dba-8104-f84a5210e087")
+	)
+	(label "LOCAL_GND"
+		(at 140.97 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "358cbf6a-c5fa-447d-8e76-05ff019e7174")
+	)
+	(label "LOCAL_GND"
+		(at 125.73 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4411055f-b755-46d7-a967-763b7b0fe5d0")
+	)
+	(label "LOCAL_GND"
+		(at 78.74 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44c2dc3d-e7a5-4f6e-a768-ed864af084ac")
+	)
+	(label "LOCAL_GND"
+		(at 110.49 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46b7aa7d-3e68-41f2-85b6-f7c6fa2a1162")
+	)
+	(label "LOCAL_VIN"
+		(at 50.8 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b0fa962-1359-490c-8a3e-e99672e20f9a")
+	)
+	(label "LOCAL_VIN"
+		(at 48.26 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c0a310f-b23f-46d8-ba02-d31e3ca48602")
+	)
+	(label "LOCAL_VIN"
+		(at 153.67 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "509e0453-bc02-42cf-87a1-921c5cfb34a4")
+	)
+	(label "LOCAL_VIN"
+		(at 78.74 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55d49069-493a-41b6-a531-bc11f85425c6")
+	)
+	(label "LOCAL_VIN"
+		(at 138.43 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "561a2ca0-8c1e-43e7-b377-609920fa1ae2")
+	)
+	(label "LOCAL_VIN"
+		(at 154.94 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58a78eb9-190e-4a4e-babd-3ecc3b314e80")
+	)
+	(label "LOCAL_GND"
+		(at 154.94 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c8d1952-db5c-4053-848e-f6de78fcf1d4")
+	)
+	(label "LOCAL_GND"
+		(at 140.97 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6191f696-422d-4d8d-a054-9bc359e78169")
+	)
+	(label "LOCAL_GND"
+		(at 95.25 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68fae2cf-0bf4-4e71-acc1-2ae45b3bd0fc")
+	)
+	(label "LOCAL_GND"
+		(at 156.21 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b2755ef-77e0-468e-b68c-85c8c5e7324d")
+	)
+	(label "LOCAL_GND"
+		(at 110.49 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b57c007-9546-4376-bb86-b360338bda6a")
+	)
+	(label "LOCAL_VIN"
+		(at 46.99 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7021be61-69da-42c4-ac90-41d0c9446c92")
+	)
+	(label "LOCAL_VIN"
+		(at 142.24 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7381eade-cdaf-46ff-b420-cf2a2a9a2586")
+	)
+	(label "LOCAL_GND"
+		(at 157.48 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74477d5a-241f-43e3-ac75-fa56b55876a0")
+	)
+	(label "LOCAL_GND"
+		(at 140.97 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c18254e-77c7-4546-b4c4-45eb82efde92")
+	)
+	(label "LOCAL_VIN"
+		(at 81.28 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c24c45b-6683-40e4-8b31-cdf78782a2e6")
+	)
+	(label "LOCAL_VIN"
+		(at 113.03 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e8a6407-ae22-4b65-a54f-42dcac32d57d")
+	)
+	(label "LOCAL_GND"
+		(at 48.26 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7eb6e64e-136a-446d-be6a-7d3d65b1c2fc")
+	)
+	(label "LOCAL_GND"
+		(at 80.01 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f09cb8b-4079-4371-8719-9dd9b69b06d1")
+	)
+	(label "LOCAL_GND"
+		(at 64.77 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80b32d82-b029-48b1-9293-eff113d5bff1")
+	)
+	(label "LOCAL_VIN"
+		(at 138.43 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83f4f932-b95f-46bf-8bc1-2ebf972f3e6b")
+	)
+	(label "LOCAL_VIN"
+		(at 127 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89ffb2ef-be75-4f4e-a456-328b694875d2")
+	)
+	(label "LOCAL_VIN"
+		(at 92.71 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a66bbed-930a-4b49-b818-f9c0d4260780")
+	)
+	(label "LOCAL_GND"
+		(at 81.28 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c51b95a-b4b3-4e65-8a96-726fbf25e437")
+	)
+	(label "LOCAL_GND"
+		(at 49.53 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf5be9a-aa3c-46d2-9b1b-8d081e5aef13")
+	)
+	(label "LOCAL_VIN"
+		(at 157.48 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "972e5047-dfb3-47ff-bde2-462db5bb24a5")
+	)
+	(label "LOCAL_GND"
+		(at 80.01 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9915b046-f5b3-41ce-b297-98c7c7e26dd9")
+	)
+	(label "LOCAL_GND"
+		(at 50.8 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad70c99-3dc2-44ba-abd6-aad02d9fa744")
+	)
+	(label "LOCAL_GND"
+		(at 111.76 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e443a7e-c250-4464-b2f7-eece016333d6")
+	)
+	(label "LOCAL_GND"
+		(at 96.52 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a00ac889-8fa8-4744-aed2-19464ce4dea4")
+	)
+	(label "LOCAL_VIN"
+		(at 111.76 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0bc7d1b-29db-44b1-b749-6886b68303bc")
+	)
+	(label "LOCAL_VIN"
+		(at 52.07 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a30fe2b7-20a8-4ce9-81bc-f6fa015dc1db")
+	)
+	(label "LOCAL_GND"
+		(at 142.24 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3a53e18-aed7-43b6-aefa-44d2d7e718d4")
+	)
+	(label "LOCAL_VIN"
+		(at 153.67 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a634b7c5-a2a9-41ea-a706-c8debf211da6")
+	)
+	(label "LOCAL_GND"
+		(at 64.77 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa34852b-3700-4f8e-b7c4-ecda985ff4c6")
+	)
+	(label "LOCAL_VIN"
+		(at 123.19 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf55c29-0bc9-489d-9267-935153ad1de2")
+	)
+	(label "LOCAL_GND"
+		(at 124.46 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af2d323d-a8dc-4c1c-b4d4-721a188ec152")
+	)
+	(label "LOCAL_GND"
+		(at 95.25 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b39a2478-2caa-47e8-9874-c7c2f8a165a3")
+	)
+	(label "LOCAL_VIN"
+		(at 77.47 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3cb03bb-6b75-45a3-86ac-a24f1de8d2f3")
+	)
+	(label "LOCAL_GND"
+		(at 63.5 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b65fb612-6919-46b4-82ad-8c20f31f518d")
+	)
+	(label "LOCAL_VIN"
+		(at 107.95 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba01d988-85ef-442d-a48e-4ddf91167101")
+	)
+	(label "LOCAL_VIN"
+		(at 63.5 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd8fa955-f0a8-48e4-99a2-f32cb4044967")
+	)
+	(label "LOCAL_VIN"
+		(at 82.55 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1927e67-df6e-44a7-a142-a10f14799cc5")
+	)
+	(label "LOCAL_GND"
+		(at 125.73 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb5810f2-b943-4ba8-8a67-9e495ff53c70")
+	)
+	(label "LOCAL_VIN"
+		(at 128.27 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb864136-e46e-474a-8751-39f36434de83")
+	)
+	(label "LOCAL_GND"
+		(at 64.77 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce171555-3cdd-43d5-b596-611ba84853d5")
+	)
+	(label "LOCAL_VIN"
+		(at 50.8 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cee5ba22-42d8-40c5-b6f6-8b3dd0cb799d")
+	)
+	(label "LOCAL_VIN"
+		(at 143.51 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d23dff1f-30c5-464f-8721-e8b262283d92")
+	)
+	(label "LOCAL_GND"
+		(at 95.25 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d516be1d-0897-4efe-8463-363f60c9af19")
+	)
+	(label "LOCAL_VIN"
+		(at 123.19 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6f5e0ba-f08a-46ee-8681-e36ac5f87a05")
+	)
+	(label "LOCAL_VIN"
+		(at 46.99 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97b822d-44af-4cae-88bc-1a189b5bd854")
+	)
+	(label "LOCAL_GND"
+		(at 66.04 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daab32b1-374c-4c08-9f38-0131c0994b18")
+	)
+	(label "LOCAL_VIN"
+		(at 97.79 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dab6e582-0f3f-45c9-b657-ec1f6efcff5d")
+	)
+	(label "LOCAL_VIN"
+		(at 92.71 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc835cac-9e66-40cb-95c8-b7ea6ddc8e4f")
+	)
+	(label "LOCAL_GND"
+		(at 156.21 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df153efa-93b9-462d-b2b9-3505442417bb")
+	)
+	(label "LOCAL_GND"
+		(at 127 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1292f85-e06c-45b5-a77d-34c6b77654db")
+	)
+	(label "LOCAL_VIN"
+		(at 158.75 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebaf943f-f4f2-40e3-a778-fdf22ef942f3")
+	)
+	(label "LOCAL_GND"
+		(at 80.01 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f09b5af7-bb2f-49a8-9e2a-4cde838d7966")
+	)
+	(label "LOCAL_VIN"
+		(at 93.98 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f365a553-71ab-48e3-825e-b9ac4265d5aa")
+	)
+	(label "LOCAL_GND"
+		(at 110.49 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6295c7c-13d5-4a93-b4c8-f2528e4702b5")
+	)
+	(label "LOCAL_GND"
+		(at 156.21 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcec9e2b-430f-426e-81bf-5403330a7c17")
+	)
+	(label "LOCAL_VIN"
+		(at 139.7 161.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7b032c-5164-4d19-b7f2-8221c62beb54")
+	)
+	(global_label "NEOPIXEL_DATA"
+		(shape input)
+		(at 31.75 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cb88b6d-163c-4019-870f-0fb6b28d1cec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.311 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NEOPIXEL_POWER"
+		(shape input)
+		(at 33.02 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec19869d-c727-41d6-b433-96b146516c63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5249 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 21.59 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff517486-a8e2-43ee-bd9b-7f7b2a54a677")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7343 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 109.22 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0251fe6e-a4d9-44b7-be9b-65c9f4bebcdc")
+		(property "Reference" "D12"
+			(at 112.776 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 108.966 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 106.68 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "50c634d1-4779-407f-a930-ae54a85df21c")
+		)
+		(pin "1"
+			(uuid "5d6ae902-60ab-448f-958d-0b7e195dd49b")
+		)
+		(pin "2"
+			(uuid "767f09ea-ec20-4fd7-a7c8-06df3f45f4fd")
+		)
+		(pin "4"
+			(uuid "7992a8a4-ab97-44be-829b-b2b2388f088d")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 157.48 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "066ac09f-89b7-4bd7-a40a-ae773454ea46")
+		(property "Reference" "C10"
+			(at 157.48 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 157.48 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 161.29 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46b113ef-61ec-4ae4-99ed-9551e20e2228")
+		)
+		(pin "1"
+			(uuid "97ddbe78-8cf7-4329-82f1-99dfc9c7a126")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 81.28 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08467381-2869-4c56-a667-a24de8d55bd8")
+		(property "Reference" "C21"
+			(at 81.28 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 81.28 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 85.09 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91d6a10f-961e-496a-996f-556fba95d19a")
+		)
+		(pin "1"
+			(uuid "f5f634a4-ac99-43c7-b76d-6b91aabaac5e")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 48.26 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "096dcfb0-8f0a-4a53-a8c5-17014985c98c")
+		(property "Reference" "D16"
+			(at 51.816 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 48.006 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 46.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 45.72 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 48.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3cedaf72-b688-4ea6-a20d-e1adac2f9490")
+		)
+		(pin "1"
+			(uuid "2369cea4-895a-4276-b63c-04893d27da4f")
+		)
+		(pin "2"
+			(uuid "6d282ac6-05a2-4aa0-9fad-6112aba4da32")
+		)
+		(pin "4"
+			(uuid "e902a4f2-3223-4147-a07f-af0653738a1d")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 156.21 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cbcb172-df17-4ba0-88df-cc91d1037435")
+		(property "Reference" "D8"
+			(at 152.654 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 156.464 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 158.75 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb6e9a5d-6137-47c9-ab49-285d70251ea3")
+		)
+		(pin "1"
+			(uuid "8da4c107-3262-4f0d-bcfa-d683c4b99c74")
+		)
+		(pin "2"
+			(uuid "c799fc37-20a6-43b4-b05f-139749f458aa")
+		)
+		(pin "4"
+			(uuid "1f9c88a9-4d0a-49ed-996a-c5886ce39132")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 127 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10655f62-8a71-4081-ac36-4fd4328288a9")
+		(property "Reference" "C8"
+			(at 127 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 127 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 130.81 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 127 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "216a73eb-fada-44f8-a4fb-5072acc14153")
+		)
+		(pin "1"
+			(uuid "2f4f34d6-45aa-424e-84bd-8f209653f595")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 63.5 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c554c6-13f9-46ea-b420-d446656e86dd")
+		(property "Reference" "C33"
+			(at 63.5 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 63.5 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 59.69 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adec512f-56b3-45d0-bb30-b1011b252ff2")
+		)
+		(pin "1"
+			(uuid "1ebd7256-2339-4ee3-80f9-520e8c35f015")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 153.67 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2be89e-7fc5-4281-85d3-8d11dec7afed")
+		(property "Reference" "C11"
+			(at 153.67 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 153.67 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 149.86 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f75d301b-c789-432d-b7a1-9c4033e96a81")
+		)
+		(pin "1"
+			(uuid "d3c6f103-cfe4-48a8-89d4-318c1a690cd9")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 50.8 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23f88df1-1d3d-4a64-8574-62d981542b84")
+		(property "Reference" "C3"
+			(at 50.8 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 50.8 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 54.61 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 50.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21599ba4-ef6d-45fe-8eba-cbe03e4fd646")
+		)
+		(pin "1"
+			(uuid "cbc2b7de-510e-4e71-a290-1673b8e0bf5c")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 66.04 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247cd637-bb93-406f-b804-36a38568ae99")
+		(property "Reference" "C20"
+			(at 66.04 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 66.04 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 69.85 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a48f6e57-9528-4927-ad6b-42862261f9f5")
+		)
+		(pin "1"
+			(uuid "64cdb74a-426e-494d-bf6c-9b1103e5dabe")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 50.8 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2540c1e5-8ad9-4805-80d9-da0364de6c90")
+		(property "Reference" "C19"
+			(at 50.8 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 50.8 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 54.61 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7909ef9c-878a-4884-9947-52d1f5736acf")
+		)
+		(pin "1"
+			(uuid "4f3b176b-ae7f-4769-9f94-1d2ca50c24c3")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 125.73 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3433ef2a-66da-4fde-8e94-8e3a4f5d9d06")
+		(property "Reference" "D22"
+			(at 122.174 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 125.984 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 128.27 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7c6b6abb-c50e-49bb-b939-8d1b7945d44c")
+		)
+		(pin "1"
+			(uuid "dcd321fe-28ee-4053-b9b8-3b624ad5824c")
+		)
+		(pin "2"
+			(uuid "a7dd0749-c45b-426a-bed4-624797815dfb")
+		)
+		(pin "4"
+			(uuid "48efd239-a21c-446d-a50e-c8da562a4c6d")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 96.52 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3998cd19-f263-4f9b-84fc-4bdddbaddaec")
+		(property "Reference" "C6"
+			(at 96.52 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 96.52 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 100.33 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28ebe9b6-e122-4941-acfd-9714cce5db3f")
+		)
+		(pin "1"
+			(uuid "dab80f04-fb67-4665-be06-a553f281af0f")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 127 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c71d89b-e833-4a51-94fb-b3d3f72593a9")
+		(property "Reference" "D38"
+			(at 123.444 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 127.254 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 129.54 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 127 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "74eb3b41-584e-405d-9cf8-167ee7af2088")
+		)
+		(pin "1"
+			(uuid "b1a711cf-b719-4d51-9e7c-3d1963787253")
+		)
+		(pin "2"
+			(uuid "13418d58-f372-4297-865b-91f562a609c4")
+		)
+		(pin "4"
+			(uuid "edfde5b3-b15a-47fe-8606-5511b85a7d8a")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 93.98 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c7b519c-e97d-41bd-a3b8-4f8b4348de68")
+		(property "Reference" "D13"
+			(at 97.536 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 93.472 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 91.44 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "34f914d1-7673-41f0-8b3a-9a5cda9c5ab0")
+		)
+		(pin "1"
+			(uuid "d8697081-a7a3-4507-9bc4-6083d82efebb")
+		)
+		(pin "2"
+			(uuid "d1075cb7-74ff-4421-b8b9-1a0de2afea71")
+		)
+		(pin "4"
+			(uuid "cde843e2-c708-4fbb-be0b-7926d61c8e1b")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 111.76 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d258aad-ca77-4cd3-a63a-6681425546b8")
+		(property "Reference" "C23"
+			(at 111.76 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 111.76 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 115.57 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6597d1ba-038a-487c-b811-fcf14a17798d")
+		)
+		(pin "1"
+			(uuid "cd2f726c-b83c-46b2-89ea-d87a18283901")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 157.48 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4081dcfe-5602-45eb-be2e-55d3dd8d4a1d")
+		(property "Reference" "D40"
+			(at 153.924 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 157.734 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 160.02 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 157.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c1f2903d-a70b-4e80-a4c4-865ad2a84381")
+		)
+		(pin "1"
+			(uuid "f21e26d4-72a7-4f32-b940-c065e0d28f90")
+		)
+		(pin "2"
+			(uuid "39426d6b-44b2-4842-bed3-42967a48d8d1")
+		)
+		(pin "4"
+			(uuid "68af9e02-d523-4707-a0d4-033e7b702b59")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 64.77 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42910b3a-02a3-4dc8-913a-a10d4fd7aaa6")
+		(property "Reference" "D18"
+			(at 61.214 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 65.024 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 67.31 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb6513f0-85fd-47a7-8ba2-fcd2bf92ce84")
+		)
+		(pin "1"
+			(uuid "2a9606cc-a02d-4e91-96f8-660de6d3bb85")
+		)
+		(pin "2"
+			(uuid "7a05ed62-77cf-4048-98cf-3598537ce3c5")
+		)
+		(pin "4"
+			(uuid "fc1e89c0-1897-4153-8e7d-6f9aba80e402")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 127 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45253b4b-8751-4c22-8c10-b4016016094a")
+		(property "Reference" "C24"
+			(at 127 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 127 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 130.81 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68b6e5dd-fca8-4e3d-9dde-d291bf59aef0")
+		)
+		(pin "1"
+			(uuid "955d54c8-1508-47f0-81f4-ff0dd88fa7d5")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 111.76 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46812e9a-1250-4358-a0a2-33b96694f076")
+		(property "Reference" "C7"
+			(at 111.76 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 111.76 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 115.57 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0458ec34-61c3-4f3b-a037-ea0c3562772d")
+		)
+		(pin "1"
+			(uuid "70ad8307-eea1-4ce4-bcd5-532ea50d7683")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 143.51 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ce0022-5dea-439e-a0fe-d634a3f97ba6")
+		(property "Reference" "C41"
+			(at 143.51 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 143.51 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 147.32 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7056dc46-61b5-4f1c-b05f-a4584b28afd5")
+		)
+		(pin "1"
+			(uuid "e57a3255-52e5-4303-ae71-4004a1265fad")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 81.28 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49577813-505e-47b4-9c05-9933c5a117ec")
+		(property "Reference" "D35"
+			(at 77.724 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 81.788 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 82.55 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 83.82 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b22a9fe3-d88d-441f-8f6b-2831d1f07d34")
+		)
+		(pin "1"
+			(uuid "cc30da1e-7f13-4922-8e05-54751c184559")
+		)
+		(pin "2"
+			(uuid "538fd943-bdcb-436b-b39e-02f7f7ce1e69")
+		)
+		(pin "4"
+			(uuid "edec5a3d-7e32-48c0-8e80-3cea46c74af8")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 92.71 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b65ef8a-e9d4-4818-8760-54327dd28c0a")
+		(property "Reference" "C15"
+			(at 92.71 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 92.71 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 88.9 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1555a4e-2d1a-4f4f-85fa-50713ddbe537")
+		)
+		(pin "1"
+			(uuid "651620de-3152-4f42-8fa9-252abbbb4131")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 49.53 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c55f22f-7af6-4033-acf0-e57dc9dbfcd3")
+		(property "Reference" "D1"
+			(at 45.974 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 50.038 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 52.07 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52096e2c-2a62-448a-a78d-26cf97e0151e")
+		)
+		(pin "1"
+			(uuid "2f34bb58-ada6-46c2-a109-74036d43dc60")
+		)
+		(pin "2"
+			(uuid "bc5667e0-eca6-4d58-ad4d-3d8480bf6991")
+		)
+		(pin "4"
+			(uuid "3184ea6c-97f1-4e11-b876-269ba1d200cb")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 142.24 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da3d783-8de5-4a53-a51e-0e8fbcc693ca")
+		(property "Reference" "C25"
+			(at 142.24 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 142.24 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 146.05 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8095704f-e096-4a4f-af10-d5253b800ec8")
+		)
+		(pin "1"
+			(uuid "c36421aa-6488-4b49-8bb3-2648fdebd6b9")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 48.26 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54de2319-df51-46e9-b6c1-4d9b97857cc5")
+		(property "Reference" "C34"
+			(at 48.26 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 48.26 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 44.45 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e03a8f1-586e-4c82-a49f-d61041e9e1f3")
+		)
+		(pin "1"
+			(uuid "7ce0a332-f7c4-4fb5-957d-935211e2c6c6")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 93.98 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f68d3a-9b77-492d-b958-e60dba474c63")
+		(property "Reference" "C31"
+			(at 93.98 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 93.98 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 90.17 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32b542b5-a909-48e7-8d4c-002fb86d3fff")
+		)
+		(pin "1"
+			(uuid "60020de9-a782-485d-aefc-ac097fbb6b03")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 96.52 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c13a5b-9402-4849-99c1-f76140ead9a5")
+		(property "Reference" "C22"
+			(at 96.52 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 96.52 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 100.33 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6c0a047-ed3c-4157-b6e9-219dbaf8d15b")
+		)
+		(pin "1"
+			(uuid "a04c9b06-47e9-42ee-8848-e3833492e906")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 125.73 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58adb1fd-8678-4413-8c22-4426bc196420")
+		(property "Reference" "D6"
+			(at 122.174 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 125.984 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 128.27 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 125.73 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88249722-28c7-4997-a848-f6d87e92c96f")
+		)
+		(pin "1"
+			(uuid "686c27f5-1c87-45ad-b79f-4b197da67301")
+		)
+		(pin "2"
+			(uuid "36a2148b-e26b-424c-9070-b722b6ba490c")
+		)
+		(pin "4"
+			(uuid "275ac244-4fd9-4ac1-bfad-7bcc93242238")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 110.49 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59b841d1-a01d-4e02-9b45-666ebb61749a")
+		(property "Reference" "D5"
+			(at 106.934 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 110.998 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 113.03 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c8e1d2d-32ee-469e-b0f7-7a9b89ffb97f")
+		)
+		(pin "1"
+			(uuid "46739785-0e7a-4808-88e9-cb8c94fc90a4")
+		)
+		(pin "2"
+			(uuid "29c1da58-0f73-4fd9-a120-6bf630420619")
+		)
+		(pin "4"
+			(uuid "47be09f8-37d5-4126-ab0f-6eb632f868f6")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 156.21 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c35341f-78e8-4a2b-8515-668b1953603c")
+		(property "Reference" "D25"
+			(at 159.766 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 155.702 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 154.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 153.67 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a5314f4e-3e3b-4336-a2c0-852260094958")
+		)
+		(pin "1"
+			(uuid "aaf08532-c06d-4fdf-a00c-ca51f2843e81")
+		)
+		(pin "2"
+			(uuid "a2ec516b-794f-4699-8270-c1e72bb7da5a")
+		)
+		(pin "4"
+			(uuid "3170f1a3-d621-4fff-8249-ae03a129e6e2")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 125.73 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fdc21f8-b8ea-47f9-886c-fd368a5f4573")
+		(property "Reference" "D27"
+			(at 129.286 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 125.222 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 123.19 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "030f9e2a-2bcb-4b2e-a200-69b6709bfccb")
+		)
+		(pin "1"
+			(uuid "58a68397-bbfb-406b-8ce4-569c55a64911")
+		)
+		(pin "2"
+			(uuid "1353d01a-a9a0-449e-a6e7-14a8375f6cb4")
+		)
+		(pin "4"
+			(uuid "d49fce7a-f5d7-400b-9b1f-6060dee9a2af")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 95.25 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61ea6cfd-fb01-46a2-862d-c1c0d8b2c729")
+		(property "Reference" "D4"
+			(at 91.694 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 95.504 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 97.79 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d3adff1-5956-4969-a14a-7ae59f57f0b9")
+		)
+		(pin "1"
+			(uuid "45104572-ff02-44b4-bff7-a4ba63823141")
+		)
+		(pin "2"
+			(uuid "054099d2-b5ee-48c4-b98b-5765dd8e5d3a")
+		)
+		(pin "4"
+			(uuid "ee6ba319-fe9e-47ef-afd8-fe062df7eca6")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 62.23 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63014966-cc66-4feb-951d-192b605f41a7")
+		(property "Reference" "C17"
+			(at 62.23 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 62.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 58.42 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f599d06e-a9ad-4a32-b969-0f3c763caec1")
+		)
+		(pin "1"
+			(uuid "c3e056a4-bf15-4a08-88d9-42b81b8a0871")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 142.24 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63b4a36f-f7af-49b8-b793-c3302f5dd319")
+		(property "Reference" "D39"
+			(at 138.684 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 142.748 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 143.51 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 144.78 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a49eed2b-20b8-49c9-9a7f-e11ee8b904ef")
+		)
+		(pin "1"
+			(uuid "35932518-8fd0-4f69-91b8-4202d8dae560")
+		)
+		(pin "2"
+			(uuid "3d92082b-4616-4b16-a939-8ff385831d25")
+		)
+		(pin "4"
+			(uuid "7eb36d5b-9f38-4e89-adfd-bcfa146e0070")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 67.31 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "646d9993-8d1c-4e46-a832-f16ab73aa4a6")
+		(property "Reference" "C36"
+			(at 67.31 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 67.31 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 71.12 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "006f919f-2682-4599-84c8-75ea69d03869")
+		)
+		(pin "1"
+			(uuid "2f7e16f7-5ef6-4302-976e-de3a64871077")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 107.95 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "666deeca-7e2e-4e46-b34a-18584e1d16e7")
+		(property "Reference" "C14"
+			(at 107.95 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 107.95 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 104.14 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbd28bf7-5fc3-493a-9d79-021b36e3d749")
+		)
+		(pin "1"
+			(uuid "c92ec186-e33e-485d-8110-f174234a9bb3")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 63.5 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6abadbd1-2298-4ca5-8bf5-36052ff01d8f")
+		(property "Reference" "D15"
+			(at 67.056 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 62.992 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 60.96 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5b731123-ed17-4f6d-b1c0-ff360ffb13d9")
+		)
+		(pin "1"
+			(uuid "cb1e914b-9e76-4c9e-a6ca-000b8d56d95f")
+		)
+		(pin "2"
+			(uuid "27478558-42e5-4705-86ad-76db1ee01bc3")
+		)
+		(pin "4"
+			(uuid "52039f61-38d7-4c99-9394-e127aee75068")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.04 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b40152a-23b8-4984-9bcf-c66f667233a8")
+		(property "Reference" "D34"
+			(at 62.484 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.294 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 67.31 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 68.58 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c97d6590-0032-4c7a-a0d6-5a1ecac36510")
+		)
+		(pin "1"
+			(uuid "75045292-a57f-4647-ad03-36f5350c0141")
+		)
+		(pin "2"
+			(uuid "b11c7e3d-d870-44a4-85b2-dd2cb66098bc")
+		)
+		(pin "4"
+			(uuid "46a5b22a-8e0e-4fe2-87b0-4a8aaf130267")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 52.07 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7151eeca-1626-43de-b568-8f654307f696")
+		(property "Reference" "C35"
+			(at 52.07 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 52.07 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 55.88 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 52.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7419edbb-8d8c-4c26-99fd-ddc89640cccd")
+		)
+		(pin "1"
+			(uuid "64dda292-2c27-4e74-8397-cd13a35bb3fb")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 128.27 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82270505-f3b4-4601-b410-6fe78de18df0")
+		(property "Reference" "C40"
+			(at 128.27 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 128.27 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 132.08 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 128.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4820c4e7-0beb-487d-89e1-556657117778")
+		)
+		(pin "1"
+			(uuid "afc97f42-96e2-4f31-a386-697947f0f044")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 80.01 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "830dac22-d3fe-4805-a7a4-b640603b60e1")
+		(property "Reference" "D19"
+			(at 76.454 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 80.518 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 82.55 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 80.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "560163e0-cc82-494b-bab7-bd3ae95ef794")
+		)
+		(pin "1"
+			(uuid "7a738d9b-210e-483f-8f8d-616212e83fc4")
+		)
+		(pin "2"
+			(uuid "d07e7fbf-d3d7-4430-a504-70751add835c")
+		)
+		(pin "4"
+			(uuid "16b95d1f-e152-46cf-94dc-5d968d84bb7f")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 142.24 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851cc303-1c13-479a-b827-7131f688c27d")
+		(property "Reference" "C9"
+			(at 142.24 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 142.24 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 146.05 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af82897a-b480-47be-9383-4f173ba38632")
+		)
+		(pin "1"
+			(uuid "6a312df0-487d-4d87-91d9-2236788b230c")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 81.28 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f4339e-da92-4541-b05b-45781a6bb94f")
+		(property "Reference" "C5"
+			(at 81.28 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 81.28 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 85.09 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ab90070-9a35-4dc3-9f7e-8ef760fa703b")
+		)
+		(pin "1"
+			(uuid "37064984-7265-43f4-9ce4-d0f3c379d26f")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 154.94 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a1e0afb-72ce-4345-a927-d2f0c7634bfc")
+		(property "Reference" "D9"
+			(at 158.496 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 154.432 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 152.4 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e627294c-3b2b-4453-b898-76c892fa9407")
+		)
+		(pin "1"
+			(uuid "c49bf3d9-a174-49bd-bf6e-e8b8cafa1232")
+		)
+		(pin "2"
+			(uuid "935e9c61-eb22-44cd-a252-657e0d720ba5")
+		)
+		(pin "4"
+			(uuid "a3018df4-0e7c-4428-aa6f-2097a5aa0afc")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 140.97 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a55c1b7-efbc-4a53-bf52-db445b4dc4ae")
+		(property "Reference" "D23"
+			(at 137.414 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 141.478 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 143.51 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52b3d49b-fbd7-47d6-bc93-cba692017547")
+		)
+		(pin "1"
+			(uuid "b9023da4-db1d-40cf-811a-0e65d522cffa")
+		)
+		(pin "2"
+			(uuid "96071e2e-6a26-439b-ba9a-78367dbb0b52")
+		)
+		(pin "4"
+			(uuid "4f856cc5-256a-4568-a772-a84e37774e73")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 50.8 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aee4b9c-db09-4774-9092-b80c5b8f058c")
+		(property "Reference" "D33"
+			(at 47.244 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 51.308 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 52.07 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 53.34 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "29e2a53d-9148-48a2-b67e-d82f5cfa5535")
+		)
+		(pin "1"
+			(uuid "ea0e84c0-a85e-4704-939c-94550dcedfec")
+		)
+		(pin "2"
+			(uuid "2a01362b-3eb2-4bb5-83d4-06eff5d70a80")
+		)
+		(pin "4"
+			(uuid "99419363-c0a4-4005-8a5b-332e10898478")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 96.52 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b3c452b-0ce2-4750-93f8-bc2f8b44639e")
+		(property "Reference" "D36"
+			(at 92.964 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 96.774 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 97.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 99.06 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2c01b8b5-7f94-4740-a453-6af6238ad952")
+		)
+		(pin "1"
+			(uuid "7bc0e901-9bf3-49f8-bcd7-32816fa9d95a")
+		)
+		(pin "2"
+			(uuid "5036c3ce-72fe-4da3-82a9-45f106b2681e")
+		)
+		(pin "4"
+			(uuid "dd07303b-09df-4981-a05f-438a8c126df8")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 124.46 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93209c31-90d4-4599-a7d8-3c066e0f6bc2")
+		(property "Reference" "C29"
+			(at 124.46 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 124.46 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 120.65 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2d91e25-fa84-4da6-b53d-2a41c88f7c6e")
+		)
+		(pin "1"
+			(uuid "19ea5f7b-bca6-4bb6-8870-182a7bd86b93")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 139.7 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "953f7911-520c-49e6-945d-7d821bde54d0")
+		(property "Reference" "C28"
+			(at 139.7 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 139.7 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 135.89 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0e5b87e-a48c-4586-998e-22d56e20d5b1")
+		)
+		(pin "1"
+			(uuid "9ba1f037-710a-4f44-b297-7eccf5c86b59")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 49.53 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97fe3001-13a7-4d93-8a03-2825f69f523e")
+		(property "Reference" "D17"
+			(at 45.974 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 50.038 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 52.07 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c708ff7-9863-4a58-817a-3b8ab623dfcb")
+		)
+		(pin "1"
+			(uuid "0b03fde8-7250-4948-ad04-cee66db18fe9")
+		)
+		(pin "2"
+			(uuid "7ede2149-2b3a-47f6-baed-fe0da4aaeb02")
+		)
+		(pin "4"
+			(uuid "983e3dec-092e-4065-a2c8-85dc595838e7")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 139.7 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a24080b-888f-4007-b23f-5c3d61fd1481")
+		(property "Reference" "D10"
+			(at 143.256 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 139.446 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 137.16 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "db5a425f-a49f-42f2-884e-bf7ea9f4ac4f")
+		)
+		(pin "1"
+			(uuid "a5cb7bcc-50c2-4122-bd08-a2baa26ed633")
+		)
+		(pin "2"
+			(uuid "b1e07deb-306d-41f8-8ee7-c49ffde4b94e")
+		)
+		(pin "4"
+			(uuid "0913bf7b-35b5-479f-801c-7050cb24f674")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 109.22 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ab86737-98bb-4ea2-b704-6818b79219c7")
+		(property "Reference" "C30"
+			(at 109.22 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 109.22 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 105.41 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "940f630b-1681-494f-b58d-a0cb95d78a98")
+		)
+		(pin "1"
+			(uuid "afba1288-e1e2-4706-9de3-242a8aca516a")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 80.01 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c1c871c-7f4c-41ae-a4ff-83a05876e906")
+		(property "Reference" "D30"
+			(at 83.566 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 79.756 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 77.47 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 80.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94c8a4e6-0f4d-4d66-a8c0-fce2e96f7470")
+		)
+		(pin "1"
+			(uuid "49548369-78f2-46d5-95a3-e0262706a71c")
+		)
+		(pin "2"
+			(uuid "dcaad9a9-5db2-4028-888c-da87b1a585fe")
+		)
+		(pin "4"
+			(uuid "4aee44a1-01d4-474a-8828-703f5be57a3a")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 111.76 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a444e52c-0c6b-4c17-b327-628097d501c6")
+		(property "Reference" "D37"
+			(at 108.204 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 112.268 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 114.3 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "df8fe538-755a-467d-b368-424bbddabc78")
+		)
+		(pin "1"
+			(uuid "dc5fc091-e762-4c92-9500-5312b0fa4f45")
+		)
+		(pin "2"
+			(uuid "33759a3f-8284-4162-96e7-2f17315d701a")
+		)
+		(pin "4"
+			(uuid "7ed5ac60-cffb-4a57-a619-3b99629aa084")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 78.74 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5b733e1-be29-4b4a-b206-50b430b0884f")
+		(property "Reference" "D14"
+			(at 82.296 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 78.486 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 76.2 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "42ca72b9-ad86-4582-82cf-6b81c852907d")
+		)
+		(pin "1"
+			(uuid "1da54274-5f56-4e88-94b7-afaae5d061b8")
+		)
+		(pin "2"
+			(uuid "3a4934f0-cc23-43e4-9f86-c517142fd25a")
+		)
+		(pin "4"
+			(uuid "3453fefb-ffcb-4d14-aea6-191e00d6fd2f")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 110.49 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a699eed2-6e5f-48b6-b68d-4b316921652e")
+		(property "Reference" "D28"
+			(at 114.046 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 110.236 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 107.95 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d502582a-6459-4312-a63f-a411d06edab5")
+		)
+		(pin "1"
+			(uuid "ec0a39b9-0fa5-44a3-afc7-cc8b27695f2e")
+		)
+		(pin "2"
+			(uuid "ce994001-f970-4a29-959b-fbea24a1b13d")
+		)
+		(pin "4"
+			(uuid "e01c4574-5553-44e1-aad1-2f35fad30952")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 154.94 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6b0cdf6-41d5-40d1-938d-4a4dabd9fa21")
+		(property "Reference" "C27"
+			(at 154.94 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 154.94 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 151.13 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 154.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44e425c0-a291-431a-b6c5-4509156494e5")
+		)
+		(pin "1"
+			(uuid "7fa0b836-3341-43e5-b87f-bf6eed400cbc")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 82.55 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a96bf738-0f65-4b3e-a509-33157a6110e8")
+		(property "Reference" "C37"
+			(at 82.55 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 82.55 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 86.36 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4bb2483-8c7f-4ef4-a6c8-8c9a0cdc67ad")
+		)
+		(pin "1"
+			(uuid "ec27cff1-df3a-4ddb-ad9d-07f4c2247d36")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 49.53 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab2b1a75-5cdb-4b85-ad26-aaa951a8de76")
+		(property "Reference" "D32"
+			(at 53.086 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 49.276 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 46.99 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "db5029d7-0e0e-4270-9552-c893352e811b")
+		)
+		(pin "1"
+			(uuid "458a19ad-73f9-428c-b966-a40ebe660715")
+		)
+		(pin "2"
+			(uuid "615844d0-80c2-47e8-b0bd-660e734147bd")
+		)
+		(pin "4"
+			(uuid "32aa8f14-85d6-4818-9d77-c9d2db8fb814")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 158.75 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e88c27-1740-4fa5-9e57-30efa2aaf133")
+		(property "Reference" "C42"
+			(at 158.75 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.75 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 162.56 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81cb6611-c5a3-4bc0-837f-003ddc78512b")
+		)
+		(pin "1"
+			(uuid "639a7087-8a0b-4da2-a0cb-03813646b17b")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 140.97 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6df5d7-2b32-49d2-a8d5-f54113b2b27c")
+		(property "Reference" "D26"
+			(at 144.526 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 140.716 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 138.43 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1bed30a7-9b14-4012-aee4-189f09f9f194")
+		)
+		(pin "1"
+			(uuid "2bf74777-efee-4d37-8494-3750a89107d0")
+		)
+		(pin "2"
+			(uuid "831516db-cdc7-455a-ba61-8db2b4dae4f9")
+		)
+		(pin "4"
+			(uuid "7f88f175-c0be-42d8-94cd-575050a0b334")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 156.21 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba83f15e-ba81-46b0-9cd6-f74b164daf85")
+		(property "Reference" "D24"
+			(at 152.654 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 156.464 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 157.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 158.75 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e0f5e4d5-0dc5-4b48-b32c-48513d843b4d")
+		)
+		(pin "1"
+			(uuid "b85f2f59-9bfd-4cb8-8df6-c80199112a81")
+		)
+		(pin "2"
+			(uuid "5e8e7254-1883-4407-a573-a3a26c9e0b5e")
+		)
+		(pin "4"
+			(uuid "d3325c20-2cdf-4fae-9e61-46ee90f01133")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 95.25 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcb02d52-823a-42eb-b4a6-96e113d87740")
+		(property "Reference" "D20"
+			(at 91.694 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 95.504 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 97.79 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "41a9b381-2acd-4db6-b0e5-34d4d4667cf6")
+		)
+		(pin "1"
+			(uuid "26ae3425-6b12-4f4d-9a25-e457352a815b")
+		)
+		(pin "2"
+			(uuid "d6cf25d5-2861-4b6f-81b1-76656597a59e")
+		)
+		(pin "4"
+			(uuid "3b7bf994-4b13-44ab-ab46-6d62ef312ccd")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 77.47 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd7e1c15-eec6-43c8-926e-dcb309d118b2")
+		(property "Reference" "C16"
+			(at 77.47 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 77.47 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 73.66 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63a3cde1-e3c0-4ef8-901e-45e82084e086")
+		)
+		(pin "1"
+			(uuid "86ffa27f-2f14-45fc-823f-2aef02ed554f")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 38.1 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5a8ad6-87cb-4c90-8139-4a823349d654")
+		(property "Reference" "R4"
+			(at 38.1 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "400"
+			(at 38.1 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b65bdc8-e27f-4854-8070-7b827b6fc001")
+		)
+		(pin "1"
+			(uuid "4df6b0f1-64dc-4e84-a487-915908bec073")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 138.43 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf73d3db-936c-4fcd-9bb2-b9d2f84b62e6")
+		(property "Reference" "C12"
+			(at 138.43 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 138.43 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 134.62 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5773827c-5268-4fdc-96b6-c2c6eb4ca316")
+		)
+		(pin "1"
+			(uuid "2079797e-a774-4705-a9bf-d302da5727c6")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 80.01 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4113d68-b72a-4fd1-9675-3d502313474b")
+		(property "Reference" "D3"
+			(at 76.454 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 80.518 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 82.55 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 80.01 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ab80c2b-4854-418c-b1f6-bc70f4a34435")
+		)
+		(pin "1"
+			(uuid "20d1092c-bfc5-46db-b2d2-2e5b0fddd516")
+		)
+		(pin "2"
+			(uuid "fc39bfa3-a53c-4acf-aeae-8073f87a372a")
+		)
+		(pin "4"
+			(uuid "86e78b7c-90e5-4b75-8ca8-77465a61247e")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 46.99 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8aedcb-7d82-410b-b0ec-fd14a60ad42d")
+		(property "Reference" "C18"
+			(at 46.99 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 46.99 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 43.18 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 46.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ead4e49-13a1-4bf3-819d-bfebc849752a")
+		)
+		(pin "1"
+			(uuid "80fafa37-ce94-4e3a-8bb3-82e5790ff100")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 97.79 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e291ca73-b12f-4d05-8120-cd4dc98784e6")
+		(property "Reference" "C38"
+			(at 97.79 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 97.79 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 101.6 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bbd9e00-a789-47e8-b4d9-1407709645e4")
+		)
+		(pin "1"
+			(uuid "0913c96d-19ac-44e9-ae1b-a9cbdbb81af0")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 66.04 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9df788b-73eb-43b7-b47f-aecf25551262")
+		(property "Reference" "C4"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 66.04 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 69.85 40.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a30f8a6a-4f65-47c7-a80a-667bf2064386")
+		)
+		(pin "1"
+			(uuid "2847298b-14d7-4127-9165-5e80556ddfa2")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 95.25 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec452ebe-0bec-4d6e-8cab-f7e8281609ec")
+		(property "Reference" "D29"
+			(at 98.806 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 94.742 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 93.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 92.71 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c6b81d2f-9648-43bb-a3ae-0328bea0e81f")
+		)
+		(pin "1"
+			(uuid "99931e3a-60c1-46c6-bef0-4480a139504f")
+		)
+		(pin "2"
+			(uuid "27be759a-e0c1-4836-a132-f6b9b1fd533d")
+		)
+		(pin "4"
+			(uuid "e43b9944-3822-47ab-84de-5757fae333f0")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 110.49 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed73283a-f2c6-47af-ab85-55baf73db0fb")
+		(property "Reference" "D21"
+			(at 106.934 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 110.998 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 113.03 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32ed955e-f114-4c8f-8b03-e7fe8574aa45")
+		)
+		(pin "1"
+			(uuid "8eb5fcad-1880-41c9-8645-33e61e6af711")
+		)
+		(pin "2"
+			(uuid "4afd7351-e3cb-4a06-9b7f-ed795c40fa74")
+		)
+		(pin "4"
+			(uuid "bfe80c44-4d76-4ab7-ac0d-02ad9a5c01e9")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 157.48 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd91633-1324-4f04-8151-0c0f3f448a68")
+		(property "Reference" "C26"
+			(at 157.48 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 157.48 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 161.29 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "704b1601-24e8-4567-b43f-22d79380757a")
+		)
+		(pin "1"
+			(uuid "d62f7fac-8bc4-471b-bf69-f7a591e34c82")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0805")
+		(at 48.26 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f29b77df-2caa-46b7-b706-58b88e9f476c")
+		(property "Reference" "C1"
+			(at 52.07 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 52.07 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 49.2252 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2e0b03b-9d20-4782-8fad-01a79d23234f")
+		)
+		(pin "1"
+			(uuid "7e701983-2486-460d-bc3f-f423c73237e7")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 113.03 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45067d8-91da-4d1a-9f10-1af510cc6d96")
+		(property "Reference" "C39"
+			(at 113.03 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 113.03 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 116.84 160.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 113.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45db091d-fced-4394-b5e6-48940f26baed")
+		)
+		(pin "1"
+			(uuid "0cd48f92-216a-4df4-a9b2-5b8af423f285")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 64.77 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f49b47c4-fbfc-4666-94a8-3b526a9af81d")
+		(property "Reference" "D2"
+			(at 61.214 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 65.024 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 67.31 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e9e0e1c-c9e3-49b0-bc7f-b42f0fac3c82")
+		)
+		(pin "1"
+			(uuid "be03a6be-0515-4411-a10f-72c472645471")
+		)
+		(pin "2"
+			(uuid "9ea8be30-80b9-4bb6-9afa-c097d0f84fa7")
+		)
+		(pin "4"
+			(uuid "4373e155-3841-4c10-9289-74dd1edaa2b7")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_0805")
+		(at 36.83 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76d64f1-e1a3-41a3-b3d3-99dbe3555a21")
+		(property "Reference" "C2"
+			(at 40.64 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500u"
+			(at 40.64 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 37.7952 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 36.83 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7b2d9a1-1e30-48a7-a829-a82bf0d35949")
+		)
+		(pin "1"
+			(uuid "80f1fb29-7880-4798-8bfe-48e321d893b1")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 123.19 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf1222c-f53a-4097-adc2-c34b20a531fa")
+		(property "Reference" "C13"
+			(at 123.19 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 119.38 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02d86f70-e8a8-4b8c-92fc-840ab3040616")
+		)
+		(pin "1"
+			(uuid "21b3fb69-8c89-43b0-b78c-89c567f045ee")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 78.74 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb2a494-1969-4543-9519-2629b9c24607")
+		(property "Reference" "C32"
+			(at 78.74 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 78.74 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 74.93 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51a315d-c6e6-4d41-819c-e3c804f0b210")
+		)
+		(pin "1"
+			(uuid "0e1f6caf-9929-46f9-8e1e-cc161a27a594")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 124.46 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd3bfc93-3540-4c93-b36a-258a6a22bd24")
+		(property "Reference" "D11"
+			(at 128.016 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 123.952 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 123.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 121.92 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fa93948a-ce51-4002-b7f7-a69eff29b0e4")
+		)
+		(pin "1"
+			(uuid "459a5afa-cce5-4cb4-a0fd-fd8f1362b571")
+		)
+		(pin "2"
+			(uuid "a8dc61ad-7c8e-493d-a285-2b7868edcbf5")
+		)
+		(pin "4"
+			(uuid "4db064c4-f11d-474a-b233-e9a969568bfb")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 140.97 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe24fd89-7210-43c2-952c-2417465f8468")
+		(property "Reference" "D7"
+			(at 137.414 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 141.478 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 142.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 143.51 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a61d6fab-87c8-42ac-9bdb-ba167c2aa3ef")
+		)
+		(pin "1"
+			(uuid "2bdddd71-ca4a-414e-8397-607ba7822a1b")
+		)
+		(pin "2"
+			(uuid "ac8ba205-3ce4-4eba-a095-b0f6621ee47c")
+		)
+		(pin "4"
+			(uuid "424e29a6-f0c9-4811-a19c-329a1392d315")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 64.77 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe3128ad-9288-42f7-8b20-3fb6d18fcbb0")
+		(property "Reference" "D31"
+			(at 68.326 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 64.262 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 63.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 62.23 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d7c47012-bfb2-4d4d-8307-24d169b6bc24")
+		)
+		(pin "1"
+			(uuid "e1dec22a-bdbc-43cb-bae4-655893e3477e")
+		)
+		(pin "2"
+			(uuid "8487c31e-7546-47a9-9712-36011371023f")
+		)
+		(pin "4"
+			(uuid "0abac5b9-d13d-4544-b711-b5fcdb11a48c")
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a/cb848185-e1ee-4535-a6fa-da8ea1a24798"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
