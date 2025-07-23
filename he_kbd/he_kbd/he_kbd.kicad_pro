@@ -559,24 +559,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -622,7 +610,7 @@
   },
   "sheets": [
     [
-      "29841a23-b1cd-475c-bf6c-45832c42a7e8",
+      "ec6e5a97-af17-41bd-90dd-eb7235b0e08a",
       "Root"
     ]
   ],

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "830637c3-859a-438b-ae8c-2220bde48c17")
+	(uuid "ec6e5a97-af17-41bd-90dd-eb7235b0e08a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74xx:CD74HC4067M"
@@ -1540,19 +1540,436 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "he_lib:GH39FKSW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HE_"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 3.556 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GH39FKSW_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(label "MTP_BIN_0"
+		(at 128.27 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f5f60c5-3fda-4100-8a06-61b7e1039ef3")
+	)
+	(label "MTP_BIN_1"
+		(at 128.27 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36be510c-1333-463f-bb13-83accfb767ae")
+	)
+	(label "MTP_BIN_3"
+		(at 45.72 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "543fc94e-4294-4497-88f2-19ee3edf1f5f")
+	)
+	(label "MTP_BIN_0"
+		(at 45.72 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66819330-5717-4d60-8fe2-19b3865f0b7a")
+	)
+	(label "MTP_BIN_1"
+		(at 45.72 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b760cdb3-1bc8-440e-9830-0e4d34ec64f1")
+	)
+	(label "MTP_BIN_2"
+		(at 45.72 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb9db70c-1d49-4322-bbc1-5be7e3924b33")
+	)
+	(label "MTP_BIN_3"
+		(at 128.27 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6fc3fb9-3a18-4367-a4e3-f85f8b71de25")
+	)
+	(label "MTP_BIN_2"
+		(at 128.27 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9bc25e7-7b4c-47d3-aefb-a819316ec18f")
 	)
 	(symbol
-		(lib_id "74xx:CD74HC4067M")
-		(at 166.37 53.34 0)
+		(lib_id "he_lib:GH39FKSW")
+		(at 170.18 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0491d3f7-0d11-4d67-8a73-87d52359168c")
+		(uuid "12d39716-a600-41b2-9746-5e6deeb12831")
+		(property "Reference" "HE_2"
+			(at 170.18 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 176.276 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "he_lib:GH39FKSW")
+		(at 201.93 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ff9fad0-6b61-4e22-9696-04ac64dcf7ff")
+		(property "Reference" "HE_7"
+			(at 201.93 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 201.93 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 208.026 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "he_lib:GH39FKSW")
+		(at 189.23 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "216ac0a2-7fbc-4ee3-abfb-46588f18178b")
+		(property "Reference" "HE_5"
+			(at 189.23 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 189.23 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 195.326 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:CD74HC4067M")
+		(at 140.97 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c712e41-e829-4306-827d-d655b51b66ac")
 		(property "Reference" "U1"
-			(at 168.5133 26.67 0)
+			(at 143.1133 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1978,7 @@
 			)
 		)
 		(property "Value" "CD74HC4067M"
-			(at 168.5133 29.21 0)
+			(at 143.1133 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1987,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
-			(at 189.23 78.74 0)
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1997,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
-			(at 157.48 31.75 0)
+			(at 132.08 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +2006,7 @@
 			)
 		)
 		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"
-			(at 166.37 53.34 0)
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,81 +2014,81 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "348ca472-726c-44cb-92a4-3c5d724dc10e")
-		)
-		(pin "4"
-			(uuid "0f0ad429-e202-4b2e-a717-b95912411b17")
-		)
-		(pin "22"
-			(uuid "fba44f4c-3b39-4b76-be98-2f34aa662743")
-		)
-		(pin "21"
-			(uuid "56f4ed97-dcd0-4017-943a-784948832f64")
-		)
-		(pin "23"
-			(uuid "00a030c3-82a3-40a1-956c-ebbe6fb9cc9e")
-		)
-		(pin "6"
-			(uuid "0e42c4e8-71eb-41f5-867d-be7803110d43")
-		)
-		(pin "19"
-			(uuid "3a6a04a3-1577-4479-a128-c34be1af7e24")
-		)
-		(pin "12"
-			(uuid "e0b27fbd-e815-479c-9a87-3ffc8a15cbcd")
-		)
-		(pin "10"
-			(uuid "fd5208cb-bf84-4a91-8f7e-5b24f6994a9e")
+		(pin "20"
+			(uuid "fb17b8e5-90b9-423f-a611-8a9de4feb5e0")
 		)
 		(pin "1"
-			(uuid "3f9fff44-eabd-43a3-9476-6fc42d3aa323")
-		)
-		(pin "13"
-			(uuid "3e5263d8-f158-417a-8086-c036dffdb50d")
-		)
-		(pin "14"
-			(uuid "ccf970ad-83d6-44b9-88c2-dd6ae43554bc")
-		)
-		(pin "11"
-			(uuid "70ac65d5-a3ea-4d29-aa72-9b00a9c4e7ff")
-		)
-		(pin "20"
-			(uuid "1fdf72f7-d820-4931-b105-a853c6672d9f")
-		)
-		(pin "16"
-			(uuid "c2c6f928-f660-4ff1-a234-9625a31cae60")
-		)
-		(pin "9"
-			(uuid "aef993ed-986b-4f9d-b4f6-087700461d2f")
-		)
-		(pin "18"
-			(uuid "0c38d2b2-406f-4a78-8364-5920f8aca412")
-		)
-		(pin "8"
-			(uuid "9ea7a688-6673-4919-8d13-1353d6e8d509")
+			(uuid "8666493f-81f2-4aeb-bbc6-cba6c04cdc9e")
 		)
 		(pin "2"
-			(uuid "a57d0e4b-b80b-43ca-b0b3-c7ec35e920ca")
+			(uuid "c2bc61b9-8475-44bc-bdaa-670d769adb00")
 		)
-		(pin "3"
-			(uuid "2bf1c57e-3d75-4f40-8f60-a16bcacab0b3")
+		(pin "13"
+			(uuid "0553ba00-74ff-479d-9741-92c1b24bc5da")
 		)
 		(pin "17"
-			(uuid "de29ba18-ad3b-4e2d-8c56-c09cc91b8c25")
+			(uuid "391b0fae-4a08-4cc1-a16f-791d12262ec9")
 		)
-		(pin "7"
-			(uuid "c6171ca3-cb1e-4b8f-8bde-9ba80b52bae5")
-		)
-		(pin "24"
-			(uuid "52fa0550-a8e6-4b65-af35-eb4f62d3b954")
+		(pin "22"
+			(uuid "cdf7f539-c627-4257-8a03-7f592f270b5c")
 		)
 		(pin "15"
-			(uuid "91b7753b-b6c0-4d8d-b820-26aa573cc5f7")
+			(uuid "da2102a4-0c64-47ab-8324-76fb7547f40c")
+		)
+		(pin "19"
+			(uuid "30d852b4-aa50-4f6c-bb8c-433c4b3db04b")
+		)
+		(pin "23"
+			(uuid "133f9140-c775-4ab9-9a14-75cbd7d78f97")
+		)
+		(pin "3"
+			(uuid "7fda25e5-a001-4341-8999-94b7b93ca899")
+		)
+		(pin "21"
+			(uuid "047148bc-8341-4f5a-be37-1838900a454a")
+		)
+		(pin "18"
+			(uuid "f5f9e230-7b3d-4856-a800-81faf7a774a8")
+		)
+		(pin "11"
+			(uuid "cc745f7c-b88d-44f4-b211-476c880dd334")
+		)
+		(pin "10"
+			(uuid "48e5d2f2-b419-47f3-b678-1436fe137123")
+		)
+		(pin "12"
+			(uuid "b1c34171-ca7c-44df-b53b-3e6a959500bc")
+		)
+		(pin "4"
+			(uuid "0fd7b5e9-540d-4d9e-932c-6b4e0566129d")
+		)
+		(pin "5"
+			(uuid "98f9128c-66e0-4f0f-b965-0f10bc82d710")
+		)
+		(pin "6"
+			(uuid "69dde162-c2d1-4414-895c-cbc259e5ba8f")
+		)
+		(pin "9"
+			(uuid "b731bbc9-93f8-4457-934e-673ca484d9c6")
+		)
+		(pin "24"
+			(uuid "12c9ce8d-32fe-4626-9b9d-7ac74e7f7757")
+		)
+		(pin "14"
+			(uuid "cd4ec770-ccde-4725-94c0-841a71c1719b")
+		)
+		(pin "16"
+			(uuid "7b2bacbf-b4b4-470c-9ab2-a6b4aa689794")
+		)
+		(pin "8"
+			(uuid "7931387e-da26-41b4-8fc3-1a9d100ccdeb")
+		)
+		(pin "7"
+			(uuid "d7b0a31c-7388-40b1-a0be-382c2fb772c7")
 		)
 		(instances
 			(project ""
-				(path "/830637c3-859a-438b-ae8c-2220bde48c17"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1679,17 +2096,90 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 54.61 67.31 0)
+		(lib_id "he_lib:GH39FKSW")
+		(at 208.28 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3edbde8c-2d10-4201-8f67-86b27a4359b7")
+		(uuid "5337cebd-3d6a-4d9f-88a8-ef3f1930c852")
+		(property "Reference" "HE_8"
+			(at 208.28 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 208.28 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 214.376 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:RaspberryPi_Pico")
+		(at 68.58 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e86712-7180-40f5-af81-7d7488b28b1e")
 		(property "Reference" "A1"
-			(at 56.7533 101.6 0)
+			(at 70.7233 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +2188,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico"
-			(at 56.7533 104.14 0)
+			(at 70.7233 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2197,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 54.61 114.3 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +2206,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 54.61 116.84 0)
+			(at 68.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +2215,191 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 54.61 119.38 0)
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ec544c74-ceac-40b9-9219-40250b293143")
+		)
+		(pin "40"
+			(uuid "6f8fe60e-bb3e-4e22-86d6-8b9316f9b55f")
+		)
+		(pin "15"
+			(uuid "7dc97520-5e3a-4a91-9476-2d0b5b82352a")
+		)
+		(pin "9"
+			(uuid "b932df05-8dca-41b3-a722-0e97e3d6a429")
+		)
+		(pin "32"
+			(uuid "c7e49006-730b-4db3-9f17-b9b391af3c2f")
+		)
+		(pin "8"
+			(uuid "cb4a3366-13b2-432a-b033-10bd95b14d0e")
+		)
+		(pin "22"
+			(uuid "50294275-49b8-4355-8526-7f849de7340c")
+		)
+		(pin "11"
+			(uuid "85abafbf-c66a-4b44-a385-24d0c5b5811c")
+		)
+		(pin "10"
+			(uuid "d784fe6e-3301-4a73-89fb-dd9d5ca57de2")
+		)
+		(pin "35"
+			(uuid "f513534a-3c1f-4c61-8ba7-af08c7d1971a")
+		)
+		(pin "16"
+			(uuid "c2700a4a-59e8-4dac-b239-82de8e5d86e5")
+		)
+		(pin "36"
+			(uuid "fd255c56-b1e9-4550-b683-3e8982a7a005")
+		)
+		(pin "5"
+			(uuid "cbe3cc1d-8cce-417f-ad5c-f083fda227cf")
+		)
+		(pin "26"
+			(uuid "27b418d1-9b79-40c8-96d6-2a3ff03d01db")
+		)
+		(pin "23"
+			(uuid "2e4f3e40-5989-4146-8f79-19f3154ffaca")
+		)
+		(pin "17"
+			(uuid "49902b9c-663d-4bf9-b7c8-d0b560371908")
+		)
+		(pin "31"
+			(uuid "dd0ab37d-4197-45af-b158-4e89a51f1920")
+		)
+		(pin "27"
+			(uuid "1b8fc514-4b8e-4381-9f3b-b2895875b564")
+		)
+		(pin "24"
+			(uuid "02dc0dd8-76bc-406a-854e-3046d05aff24")
+		)
+		(pin "29"
+			(uuid "aedba9ba-8478-4d42-890b-c2e279230a6f")
+		)
+		(pin "18"
+			(uuid "2dd0f040-a70d-48ab-9d17-7c30d7f04d4a")
+		)
+		(pin "21"
+			(uuid "b5135b38-36da-4073-9c4b-0203c8a7b36e")
+		)
+		(pin "39"
+			(uuid "42c9baac-0014-41bf-adfd-ebd000255f5d")
+		)
+		(pin "14"
+			(uuid "c425ad4b-3543-4750-8903-1d47864f453b")
+		)
+		(pin "13"
+			(uuid "b63263b7-2f30-4bcc-82b9-da7e9bba4b7e")
+		)
+		(pin "25"
+			(uuid "a23b1a77-e049-446d-b12f-45c6de08dc30")
+		)
+		(pin "38"
+			(uuid "b4f7c941-283a-44cd-8a9c-a0366fd7ee8a")
+		)
+		(pin "3"
+			(uuid "4db98558-d3a2-4dee-86b4-59cf0487174a")
+		)
+		(pin "34"
+			(uuid "650559f6-84ea-4ea2-b30b-927a3bde7272")
+		)
+		(pin "28"
+			(uuid "ccd80e45-104c-4d54-b440-ea92af37678c")
+		)
+		(pin "7"
+			(uuid "d4d701d0-c590-4563-aac4-b856ea0c47e9")
+		)
+		(pin "6"
+			(uuid "edba27ad-27e2-4aca-8d1b-caea3d2e03fd")
+		)
+		(pin "4"
+			(uuid "d2158b46-e291-4115-bc90-0070fdb983cc")
+		)
+		(pin "20"
+			(uuid "b384cacd-0be8-4263-a6e9-0a0bf01d49cc")
+		)
+		(pin "19"
+			(uuid "50c4e716-0488-4fb4-a763-6f9a09f6abdb")
+		)
+		(pin "33"
+			(uuid "c9fd2aaf-3306-4cae-b481-c1787c075049")
+		)
+		(pin "30"
+			(uuid "7db5fcbd-3799-4144-89e4-f7142c788f45")
+		)
+		(pin "2"
+			(uuid "0c74e9c4-c9bb-425b-b5b4-368a643c0059")
+		)
+		(pin "1"
+			(uuid "06a917ee-373f-4718-ac8c-a3eaf044542d")
+		)
+		(pin "37"
+			(uuid "03faf034-a3be-48af-98d0-872185c3028b")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "he_lib:GH39FKSW")
+		(at 182.88 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69fcc2ba-5eaa-4ca5-b4b1-bbc9eded1074")
+		(property "Reference" "HE_4"
+			(at 182.88 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 188.976 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,129 +2408,237 @@
 			)
 		)
 		(pin "2"
-			(uuid "8063c528-7bde-4d22-ba67-b3e35d21023a")
-		)
-		(pin "4"
-			(uuid "24c059dc-cdcb-462b-9843-b8d7eb73daac")
-		)
-		(pin "31"
-			(uuid "3767c63a-4923-426c-947b-8753bc00f76b")
-		)
-		(pin "14"
-			(uuid "b87e9ddf-6c7a-4a01-ae52-42722626f25f")
-		)
-		(pin "26"
-			(uuid "63deb6bb-7653-44bd-9d37-acadf170492e")
-		)
-		(pin "19"
-			(uuid "269b2bee-2519-41a9-9ee4-fb62031afdbb")
-		)
-		(pin "39"
-			(uuid "401bcbc8-daba-4df7-936d-20a1a00431db")
-		)
-		(pin "35"
-			(uuid "eb13f280-793a-4e4b-a24b-1dacf2cedbb9")
-		)
-		(pin "9"
-			(uuid "84d4f209-04d1-4f24-a405-041109c39493")
-		)
-		(pin "16"
-			(uuid "fd908127-075f-43e5-9f8e-b8f7bef0a905")
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
 		)
 		(pin "1"
-			(uuid "1b539495-1827-4a2e-aa5c-3e39deb52eeb")
-		)
-		(pin "5"
-			(uuid "34e3a033-538b-47b9-8477-b0566a812af2")
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
 		)
 		(pin "3"
-			(uuid "ad8a89ea-bae9-4c7f-827d-3f7f9181f6fa")
-		)
-		(pin "8"
-			(uuid "e8aef649-9a39-41eb-9af2-1fe73aad0000")
-		)
-		(pin "7"
-			(uuid "6964b7f7-c5ff-489e-baac-87283bdf6a81")
-		)
-		(pin "30"
-			(uuid "2a1cd0b3-ab8d-470b-8af1-5edb3e803263")
-		)
-		(pin "10"
-			(uuid "251adc02-7175-4682-8c6e-2324d08a4f25")
-		)
-		(pin "23"
-			(uuid "94901b65-38e5-48e8-85f3-ad50cc01dd60")
-		)
-		(pin "40"
-			(uuid "baa3db19-0fdf-4204-90c1-d6e1e6ffb467")
-		)
-		(pin "6"
-			(uuid "1be8e153-a980-42cb-8724-0e9ec5570a1e")
-		)
-		(pin "24"
-			(uuid "d1af21df-7752-4ed5-950b-ba368dd997f6")
-		)
-		(pin "32"
-			(uuid "7d55874e-9b9c-4ab8-96b1-b4a3303bb2b5")
-		)
-		(pin "18"
-			(uuid "c9a9e3c8-5b62-4ab4-bb9f-01dc7c6daa91")
-		)
-		(pin "11"
-			(uuid "c8198912-4670-4826-84b2-9e1ad21c10c6")
-		)
-		(pin "36"
-			(uuid "8eb038c4-7320-4656-a26f-3818a6ffda48")
-		)
-		(pin "13"
-			(uuid "d5efca71-3c95-491c-9bea-52b2975ca13a")
-		)
-		(pin "12"
-			(uuid "bb5168cb-f6b2-44ad-b9c3-7838edf4aae8")
-		)
-		(pin "17"
-			(uuid "114c8d6c-59a3-4393-89a2-b1896e151976")
-		)
-		(pin "25"
-			(uuid "8943fccf-3278-498f-88e4-a524a170d202")
-		)
-		(pin "34"
-			(uuid "8a349fc8-2276-4e27-93f4-409667e4e56e")
-		)
-		(pin "15"
-			(uuid "82243434-2ed6-44c8-aa2c-3ac7d2067416")
-		)
-		(pin "29"
-			(uuid "98361013-f9cf-4f47-a7ee-353628da58d0")
-		)
-		(pin "22"
-			(uuid "10c2aa6e-18a3-4bfe-9144-acbb4834e0be")
-		)
-		(pin "37"
-			(uuid "7f9cf9ba-21eb-4a27-bf01-92f8a33e346d")
-		)
-		(pin "38"
-			(uuid "13f6052d-8c00-49eb-b9a0-24b8069b26d8")
-		)
-		(pin "27"
-			(uuid "dae0f71a-a5a7-4b75-8ce6-a10d7b130c25")
-		)
-		(pin "20"
-			(uuid "7e52e3dd-44f7-4c63-bc50-17f7658bedcc")
-		)
-		(pin "28"
-			(uuid "ca5484e4-f356-465e-a142-3f781d0e5c98")
-		)
-		(pin "21"
-			(uuid "de7c33e8-4705-4b69-a537-57e79b11ad94")
-		)
-		(pin "33"
-			(uuid "18ce90e9-6030-4659-b845-bc622e07eea9")
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
 		)
 		(instances
 			(project ""
-				(path "/830637c3-859a-438b-ae8c-2220bde48c17"
-					(reference "A1")
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "he_lib:GH39FKSW")
+		(at 163.83 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ef79db-4dac-4e28-94b3-d9f19b694d78")
+		(property "Reference" "HE_1"
+			(at 163.83 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 169.926 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "he_lib:GH39FKSW")
+		(at 195.58 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d457c3ae-ca61-41fb-af58-7e7c5957b2f2")
+		(property "Reference" "HE_6"
+			(at 195.58 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 195.58 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 201.676 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "he_lib:GH39FKSW")
+		(at 176.53 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a589a1-d41e-437a-aad6-4bbb27777d1d")
+		(property "Reference" "HE_3"
+			(at 176.53 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 176.53 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 182.626 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06eee673-a66b-45c9-afd7-d0c75947c806")
+		)
+		(pin "1"
+			(uuid "bb5f8354-23b5-4c5b-8840-5a4bf1662568")
+		)
+		(pin "3"
+			(uuid "a1e3ee05-f9a8-4ec1-913c-584c5405cfdf")
+		)
+		(instances
+			(project ""
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(reference "HE_3")
 					(unit 1)
 				)
 			)
