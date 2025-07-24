@@ -42,7 +42,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GH39FKSW hall effect sensor"
 			(at 0 0 0)
 			(effects
 				(font
