@@ -48,17 +48,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -112,7 +118,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -430,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -460,9 +473,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -474,14 +487,178 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.4,
+        "name": "AN_GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4
+      },
+      {
+        "clearance": 0.3,
+        "diff_pair_gap": 0.3,
+        "diff_pair_width": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LED_GND",
+        "pcb_color": "rgb(255, 29, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/hesig1": [
+        "AN_SIG"
+      ],
+      "/hesig10": [
+        "AN_SIG"
+      ],
+      "/hesig11": [
+        "AN_SIG"
+      ],
+      "/hesig12": [
+        "AN_SIG"
+      ],
+      "/hesig13": [
+        "AN_SIG"
+      ],
+      "/hesig14": [
+        "AN_SIG"
+      ],
+      "/hesig15": [
+        "AN_SIG"
+      ],
+      "/hesig16": [
+        "AN_SIG"
+      ],
+      "/hesig17": [
+        "AN_SIG"
+      ],
+      "/hesig18": [
+        "AN_SIG"
+      ],
+      "/hesig19": [
+        "AN_SIG"
+      ],
+      "/hesig2": [
+        "AN_SIG"
+      ],
+      "/hesig20": [
+        "AN_SIG"
+      ],
+      "/hesig21": [
+        "AN_SIG"
+      ],
+      "/hesig22": [
+        "AN_SIG"
+      ],
+      "/hesig23": [
+        "AN_SIG"
+      ],
+      "/hesig24": [
+        "AN_SIG"
+      ],
+      "/hesig25": [
+        "AN_SIG"
+      ],
+      "/hesig26": [
+        "AN_SIG"
+      ],
+      "/hesig27": [
+        "AN_SIG"
+      ],
+      "/hesig28": [
+        "AN_SIG"
+      ],
+      "/hesig29": [
+        "AN_SIG"
+      ],
+      "/hesig3": [
+        "AN_SIG"
+      ],
+      "/hesig30": [
+        "AN_SIG"
+      ],
+      "/hesig31": [
+        "AN_SIG"
+      ],
+      "/hesig32": [
+        "AN_SIG"
+      ],
+      "/hesig33": [
+        "AN_SIG"
+      ],
+      "/hesig34": [
+        "AN_SIG"
+      ],
+      "/hesig35": [
+        "AN_SIG"
+      ],
+      "/hesig36": [
+        "AN_SIG"
+      ],
+      "/hesig37": [
+        "AN_SIG"
+      ],
+      "/hesig38": [
+        "AN_SIG"
+      ],
+      "/hesig39": [
+        "AN_SIG"
+      ],
+      "/hesig4": [
+        "AN_SIG"
+      ],
+      "/hesig40": [
+        "AN_SIG"
+      ],
+      "/hesig5": [
+        "AN_SIG"
+      ],
+      "/hesig6": [
+        "AN_SIG"
+      ],
+      "/hesig7": [
+        "AN_SIG"
+      ],
+      "/hesig8": [
+        "AN_SIG"
+      ],
+      "/hesig9": [
+        "AN_SIG"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "AN_GND",
+        "pattern": "/ANALOGUE_GND"
+      },
+      {
+        "netclass": "AN_GND",
+        "pattern": "/ANALOGUE_VIN"
+      },
+      {
+        "netclass": "LED_GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "NEOPIXEL_DATA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "NEOPIXEL_POWER"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -561,12 +738,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -598,6 +787,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,

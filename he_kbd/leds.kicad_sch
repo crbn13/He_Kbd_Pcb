@@ -2654,6 +2654,28 @@
 		(uuid "46b7aa7d-3e68-41f2-85b6-f7c6fa2a1162")
 	)
 	(label "LOCAL_VIN"
+		(at 63.5 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "492c0da5-92e5-4e32-b76a-b0294700a310")
+		(property "NEOPIXEL_POWER" ""
+			(at 63.5 20.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "LOCAL_VIN"
 		(at 50.8 80.01 270)
 		(effects
 			(font
