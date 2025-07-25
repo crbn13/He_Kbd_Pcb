@@ -489,24 +489,32 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.2,
         "name": "AN_GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6
+      },
+      {
+        "clearance": 0.2,
+        "name": "AN_SIG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4
+        "track_width": 0.2
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.3,
         "diff_pair_width": 0.3,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "LED_GND",
         "pcb_color": "rgb(255, 29, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.7,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -651,11 +659,11 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Default",
+        "netclass": "AN_SIG",
         "pattern": "NEOPIXEL_DATA"
       },
       {
-        "netclass": "Default",
+        "netclass": "LED_GND",
         "pattern": "NEOPIXEL_POWER"
       }
     ]
