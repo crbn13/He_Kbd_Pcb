@@ -494,7 +494,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6
+        "track_width": 0.4
       },
       {
         "clearance": 0.2,
