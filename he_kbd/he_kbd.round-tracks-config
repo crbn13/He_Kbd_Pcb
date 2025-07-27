@@ -1,2 +1,5 @@
 Default	True	2.0	3
+AN_GND	True	2.0	3
+AN_SIG	True	2.0	3
+LED_GND	True	2.0	3
 False	True	False

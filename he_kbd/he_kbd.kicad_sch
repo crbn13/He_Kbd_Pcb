@@ -8057,7 +8057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 27.559 57.658 0)
 			(effects
 				(font
@@ -8807,7 +8807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 27.559 52.578 0)
 			(effects
 				(font
@@ -9653,7 +9653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 27.559 55.118 0)
 			(effects
 				(font
@@ -11069,6 +11069,48 @@
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "HE_30")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 148.59)
+		(size 71.12 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c4ee235-02a4-4ffd-9058-d6137b17ee03")
+		(property "Sheetname" "Switch profiles"
+			(at 196.85 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 196.85 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "he_kbd"
+				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
+					(page "3")
 				)
 			)
 		)
