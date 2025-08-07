@@ -97,10 +97,11 @@
       10,
       10,
       10,
-      405
+      575
     ],
     "custom_group_rules": [],
     "expanded_rows": [
+      "AN_GND and Default",
       "Default"
     ],
     "filter_by_net_name": true,
