@@ -88,20 +88,19 @@
       9
     ],
     "col_widths": [
-      10,
-      10,
-      10,
-      10,
       0,
-      10,
-      10,
-      10,
-      10,
-      589
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [
-      "AN_GND and Default",
       "Default"
     ],
     "filter_by_net_name": true,
