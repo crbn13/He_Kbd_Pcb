@@ -12,3 +12,7 @@ ADD 100nf capacitors for multiplexers !!!
 Find out if disconnected ground planes are dumb (probably are)
 
 Change layout, dont run parallel lines on both sides of pcb, use perpendicular lines
+
+LHS:
+fix position of HE sensors and leds
+Fix schematic nets

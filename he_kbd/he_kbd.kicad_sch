@@ -3155,68 +3155,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "he_lib:1u_switch_profile"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at -3.048 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1u_switch_profile_1_1"
-				(rectangle
-					(start -4.445 4.445)
-					(end 4.445 -4.445)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "he_lib:GH39FKSW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9806,70 +9744,6 @@
 		(uuid "fe04a4ac-4d34-45c2-8e7f-9f0414f733ee")
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 463.55 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0178007f-abc5-4780-b4dc-5f6e8757e384")
-		(property "Reference" "SW22"
-			(at 468.63 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 468.63 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 463.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 463.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 463.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 313.69 213.36 180)
 		(unit 1)
@@ -10007,70 +9881,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 505.46 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07a70c8f-e3eb-4ca8-8693-c575e2565059")
-		(property "Reference" "SW4"
-			(at 510.54 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 510.54 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 505.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -10322,7 +10132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 90.424 0)
 			(effects
 				(font
@@ -10463,7 +10273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 122.174 0)
 			(effects
 				(font
@@ -10536,7 +10346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 98.806 0)
 			(effects
 				(font
@@ -10609,7 +10419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 124.206 0)
 			(effects
 				(font
@@ -10747,7 +10557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal"
 			(at 55.88 232.41 0)
 			(effects
 				(font
@@ -10934,70 +10744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 541.02 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b921eec-edf2-40b4-aac9-b51a75f9e816")
-		(property "Reference" "SW2"
-			(at 546.1 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 546.1 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 541.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 541.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 541.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 53.34 115.57 180)
 		(unit 1)
@@ -11025,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 109.474 0)
 			(effects
 				(font
@@ -11098,7 +10844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 128.524 0)
 			(effects
 				(font
@@ -11171,7 +10917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 248.666 98.806 0)
 			(effects
 				(font
@@ -11285,70 +11031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 491.49 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e38320a-9fd5-48d7-b6ce-eab2e67ba791")
-		(property "Reference" "SW25"
-			(at 496.57 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 496.57 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 491.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 491.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 491.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 138.43 109.22 180)
 		(unit 1)
@@ -11376,7 +11058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 103.124 0)
 			(effects
 				(font
@@ -11449,7 +11131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 130.556 0)
 			(effects
 				(font
@@ -11562,70 +11244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 533.4 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2137f548-0cff-48b8-a765-8bde6b31922e")
-		(property "Reference" "SW28"
-			(at 538.48 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 538.48 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 533.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 533.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 533.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 82.55 111.76 0)
 		(unit 1)
@@ -11653,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 117.856 0)
 			(effects
 				(font
@@ -11726,7 +11344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 103.124 0)
 			(effects
 				(font
@@ -12003,7 +11621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 84.074 0)
 			(effects
 				(font
@@ -12281,7 +11899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 105.156 0)
 			(effects
 				(font
@@ -12396,70 +12014,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 505.46 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38b25d79-be79-431b-908e-155c99474d0e")
-		(property "Reference" "SW26"
-			(at 510.54 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 510.54 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 505.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -12890,70 +12444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 477.52 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "461de64c-1da8-4695-ab1b-eccb6ac1c5e5")
-		(property "Reference" "SW9"
-			(at 482.6 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 482.6 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 477.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 477.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 477.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 316.23 182.88 90)
 		(unit 1)
@@ -13303,70 +12793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 505.46 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5240892a-c9ec-4ccc-9ec5-7532eed9109a")
-		(property "Reference" "SW19"
-			(at 510.54 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 510.54 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 505.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 82.55 130.81 0)
 		(unit 1)
@@ -13394,7 +12820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 136.906 0)
 			(effects
 				(font
@@ -13861,70 +13287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 547.37 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a7874da-96ef-41b5-9c72-81af61750755")
-		(property "Reference" "SW14"
-			(at 552.45 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 552.45 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 547.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 547.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 547.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 360.68 274.32 180)
 		(unit 1)
@@ -14061,70 +13423,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 519.43 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ec526a0-f61c-420e-9af0-4045a23f49f7")
-		(property "Reference" "SW18"
-			(at 524.51 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 524.51 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 519.43 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 519.43 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 519.43 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -14835,7 +14133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 115.824 0)
 			(effects
 				(font
@@ -14948,70 +14246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 463.55 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "692ddf40-bbb6-4d5d-819a-9caaef301436")
-		(property "Reference" "SW7"
-			(at 468.63 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 468.63 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 463.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 463.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 463.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 82.55 105.41 0)
 		(unit 1)
@@ -15039,7 +14273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 111.506 0)
 			(effects
 				(font
@@ -15588,70 +14822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 477.52 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eba9f9f-a475-47c3-b844-0bd293d77cf1")
-		(property "Reference" "SW34"
-			(at 482.6 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 482.6 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 477.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 477.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 477.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")
 		(at 334.01 34.29 0)
 		(unit 1)
@@ -15797,70 +14967,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 519.43 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8516c19a-c9cb-4012-844d-f8f023a7fa9a")
-		(property "Reference" "SW27"
-			(at 524.51 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 524.51 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 519.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 519.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 519.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 346.71 182.88 90)
 		(unit 1)
@@ -15991,134 +15097,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 477.52 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "877904f7-8b61-4bfb-a184-424c84a5994a")
-		(property "Reference" "SW24"
-			(at 482.6 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 482.6 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 477.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 477.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 477.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 519.43 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88e8c013-5ff1-49ac-9dea-21753c48f9eb")
-		(property "Reference" "SW12"
-			(at 524.51 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 524.51 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 519.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 519.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 519.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -16377,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 92.456 0)
 			(effects
 				(font
@@ -16450,7 +15428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 130.556 0)
 			(effects
 				(font
@@ -16490,70 +15468,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "HE_23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 491.49 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc961d8-6b17-48ef-9b67-c0f1605384e1")
-		(property "Reference" "SW20"
-			(at 496.57 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 496.57 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 491.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 491.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 491.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -16628,70 +15542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 491.49 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "941778ce-a79f-488f-beb0-007378dc3596")
-		(property "Reference" "SW10"
-			(at 496.57 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 496.57 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 491.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 491.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 491.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 53.34 96.52 180)
 		(unit 1)
@@ -16719,7 +15569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 90.424 0)
 			(effects
 				(font
@@ -16827,70 +15677,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 533.4 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e1a219-8f8d-4d78-81e7-c9cd3af47fe6")
-		(property "Reference" "SW30"
-			(at 538.48 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 538.48 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 533.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 533.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 533.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -17622,70 +16408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 552.45 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f54b314-1043-49bb-b7d2-b20503ca38f5")
-		(property "Reference" "SW16"
-			(at 557.53 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 557.53 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 552.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 552.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 552.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")
 		(at 322.58 34.29 0)
 		(unit 1)
@@ -18001,7 +16723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 98.806 0)
 			(effects
 				(font
@@ -18122,70 +16844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 463.55 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac71153a-2a86-4a8a-b689-6253fbf4ca3b")
-		(property "Reference" "SW8"
-			(at 468.63 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 468.63 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 463.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 463.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 463.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 53.34 121.92 180)
 		(unit 1)
@@ -18213,7 +16871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 115.824 0)
 			(effects
 				(font
@@ -18356,7 +17014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 248.666 92.456 0)
 			(effects
 				(font
@@ -18542,70 +17200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 505.46 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b58bf428-b342-4bec-ac5d-216c897b1836")
-		(property "Reference" "SW11"
-			(at 510.54 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 510.54 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 505.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 53.34 134.62 180)
 		(unit 1)
@@ -18633,7 +17227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 128.524 0)
 			(effects
 				(font
@@ -18999,7 +17593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 111.506 0)
 			(effects
 				(font
@@ -19039,70 +17633,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "HE_20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 562.61 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1124f12-42e4-44d7-baa4-4ccb7f387f52")
-		(property "Reference" "SW15"
-			(at 567.69 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 567.69 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 562.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 562.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -19206,7 +17736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 96.774 0)
 			(effects
 				(font
@@ -19319,70 +17849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 477.52 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c73aad48-2994-4344-9b12-3b8f66c20112")
-		(property "Reference" "SW21"
-			(at 482.6 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 482.6 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 477.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 477.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 477.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Resistors:10k")
 		(at 63.5 212.09 0)
 		(unit 1)
@@ -19444,70 +17910,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 477.52 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd8225cf-6ff5-4713-8f1f-d778260e8e48")
-		(property "Reference" "SW6"
-			(at 482.6 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 482.6 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 477.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 477.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 477.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -19679,7 +18081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 92.456 0)
 			(effects
 				(font
@@ -19719,70 +18121,6 @@
 			(project ""
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "HE_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 519.43 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0fb4bfb-2bdf-4374-9ddb-eacfb0e1e2e6")
-		(property "Reference" "SW31"
-			(at 524.51 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 524.51 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 519.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 519.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 519.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -19891,7 +18229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 124.206 0)
 			(effects
 				(font
@@ -19931,198 +18269,6 @@
 			(project ""
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "HE_6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 505.46 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d829730b-9898-46c7-b99b-8ebe717199fb")
-		(property "Reference" "SW32"
-			(at 510.54 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 510.54 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 505.46 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 533.4 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae56974-719a-4c72-b3f8-141a5f2f1d58")
-		(property "Reference" "SW13"
-			(at 538.48 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 538.48 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 533.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 533.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 533.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 491.49 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dca6bf85-4eed-4e47-8ccb-c7dd8d421914")
-		(property "Reference" "SW5"
-			(at 496.57 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 496.57 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 491.49 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 491.49 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 491.49 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -20197,134 +18343,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 556.26 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2522f75-5948-4924-9a65-454ea5e4fbd7")
-		(property "Reference" "SW1"
-			(at 561.34 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 561.34 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 556.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 556.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 556.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 519.43 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e25dd061-9236-4ab4-b21a-75dc1ef7402c")
-		(property "Reference" "SW3"
-			(at 524.51 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 524.51 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 519.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 519.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 519.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 245.11 99.06 0)
 		(unit 1)
@@ -20352,7 +18370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 248.666 105.156 0)
 			(effects
 				(font
@@ -20425,7 +18443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 136.906 0)
 			(effects
 				(font
@@ -20471,70 +18489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 463.55 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8886fde-9151-474a-b121-505f6fc37a59")
-		(property "Reference" "SW23"
-			(at 468.63 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 468.63 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 463.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 463.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 463.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 138.43 90.17 180)
 		(unit 1)
@@ -20562,7 +18516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 84.074 0)
 			(effects
 				(font
@@ -20991,7 +18945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 49.784 122.174 0)
 			(effects
 				(font
@@ -21064,7 +19018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 171.196 117.856 0)
 			(effects
 				(font
@@ -21212,7 +19166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 86.106 105.156 0)
 			(effects
 				(font
@@ -21258,70 +19212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 533.4 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f670b0e3-7b07-49a2-8684-1b5c425a6822")
-		(property "Reference" "SW17"
-			(at 538.48 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 538.48 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 533.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 533.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 533.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "he_lib:GH39FKSW")
 		(at 138.43 115.57 180)
 		(unit 1)
@@ -21349,7 +19239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 109.474 0)
 			(effects
 				(font
@@ -21389,134 +19279,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "HE_28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 491.49 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9165e67-e151-47ce-84b8-23a3226278ec")
-		(property "Reference" "SW33"
-			(at 496.57 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 496.57 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 491.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 491.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 491.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 463.55 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa75b84e-ca62-4645-9b30-1d5e1e4441cc")
-		(property "Reference" "SW35"
-			(at 468.63 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 468.63 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 463.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 463.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 463.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -21653,70 +19415,6 @@
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "he_lib:1u_switch_profile")
-		(at 552.45 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc02c0f5-2864-4ed9-a9d8-f040253819a6")
-		(property "Reference" "SW29"
-			(at 557.53 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 557.53 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "he_kbd_footprint:SW_Cherry_MX_1.00u_ANALOGUE"
-			(at 552.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 552.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 552.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "he_kbd"
-				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -21975,7 +19673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
 			(at 134.874 96.774 0)
 			(effects
 				(font
