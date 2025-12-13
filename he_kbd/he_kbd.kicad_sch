@@ -3363,6 +3363,12 @@
 		(uuid "ed1c5b8d-0c59-4711-99fa-4ff7307825fb")
 	)
 	(junction
+		(at 297.18 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01899e35-9e73-4431-a1d2-31e1a6dfc4a1")
+	)
+	(junction
 		(at 397.51 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3391,12 +3397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "330a01b7-2e4b-4c57-96b2-e96c14acdac2")
-	)
-	(junction
-		(at 68.58 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "338d7ba9-7f15-4a90-b5b2-52ba0c08e056")
 	)
 	(junction
 		(at 389.89 259.08)
@@ -3603,16 +3603,6 @@
 			(type default)
 		)
 		(uuid "06b652a9-ee42-4b87-8ed0-1510c0d51902")
-	)
-	(wire
-		(pts
-			(xy 68.58 222.25) (xy 69.85 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bc94a4-4d98-4797-9f7b-684c2358ea87")
 	)
 	(wire
 		(pts
@@ -4056,16 +4046,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 219.71) (xy 69.85 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2786be8f-1bb4-48d3-89bb-3d50bfe51c19")
-	)
-	(wire
-		(pts
 			(xy 55.88 44.45) (xy 55.88 46.99)
 		)
 		(stroke
@@ -4446,16 +4426,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 219.71) (xy 68.58 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b7b651-cf31-46f4-8364-62523849ce06")
-	)
-	(wire
-		(pts
 			(xy 76.2 82.55) (xy 76.2 96.52)
 		)
 		(stroke
@@ -4513,6 +4483,16 @@
 			(type default)
 		)
 		(uuid "49ce551a-e98b-4427-9834-5cff704e7cd7")
+	)
+	(wire
+		(pts
+			(xy 297.18 302.26) (xy 297.18 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a47f7ee-f8db-4064-b014-1e12ddf6321a")
 	)
 	(wire
 		(pts
@@ -4593,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "4f8f7812-44e2-410a-b182-96316523317d")
+	)
+	(wire
+		(pts
+			(xy 297.18 317.5) (xy 285.75 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51999445-3753-42b8-b50d-c064527b89b4")
 	)
 	(wire
 		(pts
@@ -5003,6 +4993,16 @@
 			(type default)
 		)
 		(uuid "6aaa4297-76c3-4137-a6d3-4fa45ef55f58")
+	)
+	(wire
+		(pts
+			(xy 297.18 302.26) (xy 290.83 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d48677d-42b0-403f-a39a-a7dec2df5fdf")
 	)
 	(wire
 		(pts
@@ -5476,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 302.26) (xy 297.18 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fce80d9-507d-46e6-91d2-7c3b0dd1dff0")
+	)
+	(wire
+		(pts
 			(xy 308.61 220.98) (xy 308.61 205.74)
 		)
 		(stroke
@@ -5533,16 +5543,6 @@
 			(type default)
 		)
 		(uuid "93ec2e71-603d-4d0a-863b-76e98be34d19")
-	)
-	(wire
-		(pts
-			(xy 68.58 219.71) (xy 68.58 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957366ff-31f7-4212-9d96-34aa4b924a00")
 	)
 	(wire
 		(pts
@@ -5823,6 +5823,16 @@
 			(type default)
 		)
 		(uuid "a5fc01a0-4ff9-4d6e-acd3-33d9ca0b3eaa")
+	)
+	(wire
+		(pts
+			(xy 96.52 54.61) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61e7dc7-5c4e-4483-82db-2e4b345252d2")
 	)
 	(wire
 		(pts
@@ -6226,16 +6236,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 317.5) (xy 290.83 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a44352-a3f7-4219-8292-03f59d9989f0")
-	)
-	(wire
-		(pts
 			(xy 74.93 102.87) (xy 77.47 102.87)
 		)
 		(stroke
@@ -6293,16 +6293,6 @@
 			(type default)
 		)
 		(uuid "c860eb19-b3c1-4339-b814-c0076247aeaf")
-	)
-	(wire
-		(pts
-			(xy 67.31 219.71) (xy 68.58 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ad0025-82e0-49f8-b594-a2021c39712c")
 	)
 	(wire
 		(pts
@@ -6406,7 +6396,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 179.07) (xy 92.71 184.15)
+			(xy 92.71 176.53) (xy 92.71 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6523,16 +6513,6 @@
 			(type default)
 		)
 		(uuid "d74971f5-13cc-48bf-89b5-76ebad4137b6")
-	)
-	(wire
-		(pts
-			(xy 290.83 302.26) (xy 290.83 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9144cb6-8f94-45f3-9bfa-f99a08285a37")
 	)
 	(wire
 		(pts
@@ -7036,16 +7016,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 217.17) (xy 69.85 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feac7587-b344-46fd-8ae4-1e405bc36f0a")
-	)
-	(wire
-		(pts
 			(xy 334.01 30.48) (xy 346.71 30.48)
 		)
 		(stroke
@@ -7054,7 +7024,7 @@
 		)
 		(uuid "ff11ed11-b6b4-41bd-a7f9-1b3c7bd9ec77")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 314.96 198.12 0)
 		(effects
 			(font
@@ -7094,7 +7064,7 @@
 		)
 		(uuid "01bf41e6-e8a8-4bfc-9447-f3a108b7baf0")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 360.68 198.12 0)
 		(effects
 			(font
@@ -7104,7 +7074,7 @@
 		)
 		(uuid "0296c18f-b59d-4d1b-8bf1-9983a3af1f9e")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 270.51 220.98 270)
 		(effects
 			(font
@@ -7114,7 +7084,7 @@
 		)
 		(uuid "030a8873-e922-44d4-9895-68bd106c9daa")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 313.69 205.74 180)
 		(effects
 			(font
@@ -7145,7 +7115,7 @@
 			)
 		)
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 358.14 182.88 90)
 		(effects
 			(font
@@ -7175,7 +7145,7 @@
 		)
 		(uuid "0add0f7d-ed47-4e61-8d2b-8debafee067c")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 314.96 266.7 180)
 		(effects
 			(font
@@ -7185,7 +7155,7 @@
 		)
 		(uuid "0b3b24bd-a4e2-430a-abd4-66bea393f875")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 360.68 256.54 0)
 		(effects
 			(font
@@ -7225,6 +7195,16 @@
 		)
 		(uuid "0f5f60c5-3fda-4100-8a06-61b7e1039ef3")
 	)
+	(label "USB_5V"
+		(at 127 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10bd0e60-9fec-434b-8801-c25820fb03ee")
+	)
 	(label "ANALOGUE_VIN"
 		(at 180.34 86.36 0)
 		(effects
@@ -7245,7 +7225,7 @@
 		)
 		(uuid "123ee68d-1cef-4854-8ac6-a7b398924a2d")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 346.71 220.98 270)
 		(effects
 			(font
@@ -7255,7 +7235,7 @@
 		)
 		(uuid "1260d541-c689-45b1-9510-7e3fade3ccb2")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 312.42 182.88 90)
 		(effects
 			(font
@@ -7286,7 +7266,7 @@
 			)
 		)
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 314.96 256.54 0)
 		(effects
 			(font
@@ -7367,7 +7347,7 @@
 		)
 		(uuid "194e4d1c-ccef-480a-9364-f05ac56b941f")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 281.94 182.88 90)
 		(effects
 			(font
@@ -7397,6 +7377,16 @@
 				(justify right)
 			)
 		)
+	)
+	(label "NEOPIXEL_GND"
+		(at 125.73 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d615248-fc86-4b18-b54e-22db337050b4")
 	)
 	(label "NEOPIXEL_DATA"
 		(at 237.49 190.5 180)
@@ -7449,16 +7439,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "ANALOGUE_GND"
-		(at 99.06 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22d541ba-62bd-42a6-a7bc-317462a0b642")
 	)
 	(label "VSYS"
 		(at 83.82 182.88 0)
@@ -7541,7 +7521,7 @@
 		)
 		(uuid "2731ec8e-f545-43fd-a25a-67dd29a9132f")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 299.72 256.54 0)
 		(effects
 			(font
@@ -7561,7 +7541,7 @@
 		)
 		(uuid "28f8211a-b425-43d0-97ee-f19cd93eb132")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 256.54 281.94 270)
 		(effects
 			(font
@@ -7571,7 +7551,7 @@
 		)
 		(uuid "298e41ea-20cf-490e-a567-b9db12738a89")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 297.18 241.3 90)
 		(effects
 			(font
@@ -7643,7 +7623,7 @@
 		)
 		(uuid "2ecd4768-c0e7-4d1c-b461-3653a9d1afa3")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 359.41 205.74 180)
 		(effects
 			(font
@@ -7663,7 +7643,7 @@
 		)
 		(uuid "2fb1b595-b990-477b-a98d-a2d075ae3f28")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 284.48 266.7 180)
 		(effects
 			(font
@@ -7683,7 +7663,17 @@
 		)
 		(uuid "30bae313-b892-4488-9ad2-6eb23cbaf243")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
+		(at 85.09 257.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "325463da-a05a-4450-b708-3f74cdfb700e")
+	)
+	(label "NEOPIXEL_GND"
 		(at 254 256.54 0)
 		(effects
 			(font
@@ -7693,7 +7683,7 @@
 		)
 		(uuid "33bf6575-6a96-486e-918b-4a9320e94618")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 332.74 281.94 270)
 		(effects
 			(font
@@ -7753,7 +7743,7 @@
 		)
 		(uuid "3afa77d7-3a6f-4bf1-861e-e7b57f7563d7")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 345.44 256.54 0)
 		(effects
 			(font
@@ -7909,7 +7899,7 @@
 			)
 		)
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 269.24 256.54 0)
 		(effects
 			(font
@@ -7919,7 +7909,7 @@
 		)
 		(uuid "413851ac-a393-474d-be67-391d61621493")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 252.73 302.26 90)
 		(effects
 			(font
@@ -7949,7 +7939,7 @@
 		)
 		(uuid "42f397c0-7615-47d9-9a6b-7651ee154872")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 299.72 198.12 0)
 		(effects
 			(font
@@ -8019,7 +8009,7 @@
 		)
 		(uuid "470aa282-7cd5-4d4a-a940-27d1184c2453")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 284.48 198.12 0)
 		(effects
 			(font
@@ -8060,7 +8050,7 @@
 		)
 		(uuid "4925006f-777c-4d9d-8f0d-2cfe07e6a98f")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 358.14 241.3 90)
 		(effects
 			(font
@@ -8080,7 +8070,7 @@
 		)
 		(uuid "50f8f81c-845f-4c95-9e62-4833c3450be7")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 344.17 205.74 180)
 		(effects
 			(font
@@ -8120,7 +8110,7 @@
 		)
 		(uuid "558dff8e-8a0e-4493-a80b-7f6891f20cc1")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 312.42 241.3 90)
 		(effects
 			(font
@@ -8150,17 +8140,17 @@
 		)
 		(uuid "590788e9-3487-40d7-8aae-bd89bf52b7a3")
 	)
-	(label "LOCAL_GND"
-		(at 252.73 205.74 180)
+	(label "NEOPIXEL_GND"
+		(at 252.73 205.74 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "59de39aa-f868-46cf-a8e3-16987a7dd6dc")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 251.46 241.3 90)
 		(effects
 			(font
@@ -8170,7 +8160,7 @@
 		)
 		(uuid "5afe6698-c8ef-4b0d-8b5c-f46e27aa1bde")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 327.66 241.3 90)
 		(effects
 			(font
@@ -8180,7 +8170,7 @@
 		)
 		(uuid "5bcbff3f-350a-48dd-8189-a86b46b91886")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 299.72 266.7 180)
 		(effects
 			(font
@@ -8190,7 +8180,7 @@
 		)
 		(uuid "5e23122e-f39f-49b7-a452-b81f73b3e2c5")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 255.27 317.5 0)
 		(effects
 			(font
@@ -8210,7 +8200,7 @@
 		)
 		(uuid "635bdd65-e866-44ba-9384-e2dbc5ccb01a")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 328.93 205.74 180)
 		(effects
 			(font
@@ -8251,7 +8241,7 @@
 		)
 		(uuid "66819330-5717-4d60-8fe2-19b3865f0b7a")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 330.2 266.7 180)
 		(effects
 			(font
@@ -8375,7 +8365,7 @@
 		)
 		(uuid "6fd6dbfc-5ac4-4ba2-b193-d0f84f5fe059")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 269.24 198.12 0)
 		(effects
 			(font
@@ -8385,7 +8375,7 @@
 		)
 		(uuid "72885906-ad02-4342-93f0-5b368e468fcf")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 283.21 205.74 180)
 		(effects
 			(font
@@ -8416,7 +8406,17 @@
 			)
 		)
 	)
-	(label "LOCAL_VIN"
+	(label "NEOPIXEL_GND"
+		(at 285.75 317.5 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "734968f4-2ca7-410d-bbea-1dbefde709bd")
+	)
+	(label "USB_5V"
 		(at 255.27 220.98 270)
 		(effects
 			(font
@@ -8436,7 +8436,7 @@
 		)
 		(uuid "7724f09f-d01c-4354-b7a0-bdcda1bcca87")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 295.91 163.83 0)
 		(effects
 			(font
@@ -8496,7 +8496,7 @@
 		)
 		(uuid "80afe515-736b-4c11-9823-09200526b784")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 270.51 317.5 0)
 		(effects
 			(font
@@ -8547,7 +8547,7 @@
 			)
 		)
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 284.48 256.54 0)
 		(effects
 			(font
@@ -8557,15 +8557,15 @@
 		)
 		(uuid "86a63c78-b96d-4a77-a12c-7a72db4f359d")
 	)
-	(label "GND"
-		(at 67.31 219.71 180)
+	(label "USB_5V"
+		(at 251.46 241.3 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "87947bcb-97ba-4499-9dbe-1bb590c36d19")
+		(uuid "8732f457-4069-4ecd-9be2-f828125de3b4")
 	)
 	(label "hesig18"
 		(at 162.5383 96.52 180)
@@ -8670,7 +8670,7 @@
 		)
 		(uuid "91324587-7605-49b5-8b2c-a7f57282d77e")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 298.45 205.74 180)
 		(effects
 			(font
@@ -8680,7 +8680,7 @@
 		)
 		(uuid "92578e3c-c82c-4df8-aec9-0f3b36451815")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 300.99 220.98 270)
 		(effects
 			(font
@@ -8710,7 +8710,7 @@
 		)
 		(uuid "94a4e079-7f8b-4afd-bf33-810ca3ccadfc")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 317.5 281.94 270)
 		(effects
 			(font
@@ -8750,7 +8750,7 @@
 		)
 		(uuid "97dd040e-239c-41f4-bdee-ee57e165b986")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 266.7 182.88 90)
 		(effects
 			(font
@@ -8760,7 +8760,7 @@
 		)
 		(uuid "9c4728a4-e43f-4874-bdd6-d460bd9c063c")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 281.94 241.3 90)
 		(effects
 			(font
@@ -8800,7 +8800,7 @@
 		)
 		(uuid "a105b6ff-d724-475b-bb8e-b9ec9c16da8a")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 285.75 220.98 270)
 		(effects
 			(font
@@ -8810,7 +8810,7 @@
 		)
 		(uuid "a1528c71-8697-428c-8553-11f51fed2771")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 266.7 241.3 90)
 		(effects
 			(font
@@ -8820,7 +8820,7 @@
 		)
 		(uuid "a20409ef-76e0-415c-9024-8fc333b10f78")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 330.2 256.54 0)
 		(effects
 			(font
@@ -8871,7 +8871,7 @@
 		)
 		(uuid "a789fba6-74bd-4ad8-a219-2c347b9d43cb")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 342.9 241.3 90)
 		(effects
 			(font
@@ -8892,7 +8892,7 @@
 		(uuid "aa7651e5-dd53-4c0a-84b1-16a01687665c")
 	)
 	(label "NEOPIXEL_POWER"
-		(at 92.71 179.07 0)
+		(at 92.71 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8901,7 +8901,7 @@
 		)
 		(uuid "ac4d7efd-99c3-491f-bf2c-5d581075379c")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 347.98 281.94 270)
 		(effects
 			(font
@@ -8932,7 +8932,7 @@
 			)
 		)
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 361.95 220.98 270)
 		(effects
 			(font
@@ -8962,7 +8962,7 @@
 		)
 		(uuid "af74e5d3-455c-4818-9eb6-861606258b38")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 345.44 266.7 180)
 		(effects
 			(font
@@ -8972,7 +8972,7 @@
 		)
 		(uuid "b00efc33-6782-4a19-9b46-eb910b5b4f3e")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 283.21 302.26 90)
 		(effects
 			(font
@@ -9003,7 +9003,7 @@
 			)
 		)
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 360.68 266.7 180)
 		(effects
 			(font
@@ -9023,7 +9023,7 @@
 		)
 		(uuid "b322a644-e00d-4243-acff-684bfb1d803b")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 363.22 281.94 270)
 		(effects
 			(font
@@ -9033,7 +9033,17 @@
 		)
 		(uuid "b353353e-3888-4edc-8f4c-3ddb98881bd0")
 	)
-	(label "LOCAL_GND"
+	(label "ANALOGUE_GND"
+		(at 99.06 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b434b902-5bdc-472d-9dac-e17d4378aaee")
+	)
+	(label "NEOPIXEL_GND"
 		(at 267.97 205.74 180)
 		(effects
 			(font
@@ -9063,7 +9073,7 @@
 		)
 		(uuid "b760cdb3-1bc8-440e-9830-0e4d34ec64f1")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 302.26 281.94 270)
 		(effects
 			(font
@@ -9073,7 +9083,7 @@
 		)
 		(uuid "b7f5ceac-ddb3-4cb5-b08a-f0ed13ce17c5")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 345.44 198.12 0)
 		(effects
 			(font
@@ -9104,7 +9114,7 @@
 			)
 		)
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 287.02 281.94 270)
 		(effects
 			(font
@@ -9155,7 +9165,7 @@
 		)
 		(uuid "bf551b4a-f239-4ec5-b41e-be946bfc75b0")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 271.78 281.94 270)
 		(effects
 			(font
@@ -9165,13 +9175,13 @@
 		)
 		(uuid "bfd60007-ee8a-48b2-9723-508d0c4c181b")
 	)
-	(label "LOCAL_GND"
-		(at 285.75 317.5 0)
+	(label "NEOPIXEL_GND"
+		(at 308.61 302.26 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c059e2d1-73cb-4783-8f70-35475ae274a4")
 	)
@@ -9185,7 +9195,7 @@
 		)
 		(uuid "c76eb1b3-86a4-4fc1-8f45-381f6d3bfbfa")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 330.2 198.12 0)
 		(effects
 			(font
@@ -9195,7 +9205,7 @@
 		)
 		(uuid "c8202d1f-1842-4716-8da7-7ca807fb2b4f")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 254 198.12 0)
 		(effects
 			(font
@@ -9226,7 +9236,7 @@
 			)
 		)
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 254 266.7 270)
 		(effects
 			(font
@@ -9288,7 +9298,7 @@
 			)
 		)
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 331.47 220.98 270)
 		(effects
 			(font
@@ -9359,7 +9369,7 @@
 		)
 		(uuid "d69a7c54-65b8-47d4-96b0-99dd872ad85d")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 316.23 220.98 270)
 		(effects
 			(font
@@ -9369,7 +9379,7 @@
 		)
 		(uuid "d6ca0a9d-9c40-47ff-8fb8-932588245ffb")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 297.18 182.88 90)
 		(effects
 			(font
@@ -9430,7 +9440,7 @@
 		)
 		(uuid "d9bc25e7-7b4c-47d3-aefb-a819316ec18f")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 342.9 182.88 90)
 		(effects
 			(font
@@ -9440,7 +9450,7 @@
 		)
 		(uuid "dbff1f68-99d9-409d-8778-8fb11010352e")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 267.97 302.26 90)
 		(effects
 			(font
@@ -9532,7 +9542,7 @@
 		)
 	)
 	(label "USB_5V"
-		(at 92.71 181.61 0)
+		(at 92.71 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9653,7 +9663,7 @@
 		)
 		(uuid "f4a3b8a3-58e9-4189-ba76-1409ea04c99b")
 	)
-	(label "LOCAL_GND"
+	(label "NEOPIXEL_GND"
 		(at 269.24 266.7 270)
 		(effects
 			(font
@@ -9663,7 +9673,7 @@
 		)
 		(uuid "f591e125-0446-4bf2-85fc-d454f27cf38b")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 327.66 182.88 90)
 		(effects
 			(font
@@ -9733,7 +9743,7 @@
 		)
 		(uuid "fd631f8d-fab6-40e3-a214-e3742bc55905")
 	)
-	(label "LOCAL_VIN"
+	(label "USB_5V"
 		(at 252.73 182.88 90)
 		(effects
 			(font
@@ -17069,7 +17079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d823a2-114c-45e0-82e6-66b3c9d0eabd")
-		(property "Reference" "C_MTP3"
+		(property "Reference" "C_MTP0"
 			(at 100.33 49.5299 0)
 			(effects
 				(font
@@ -17123,7 +17133,7 @@
 		(instances
 			(project "he_kbd"
 				(path "/ec6e5a97-af17-41bd-90dd-eb7235b0e08a"
-					(reference "C_MTP3")
+					(reference "C_MTP0")
 					(unit 1)
 				)
 			)
@@ -17657,7 +17667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 392.4301 251.46 0)
 			(effects
 				(font
