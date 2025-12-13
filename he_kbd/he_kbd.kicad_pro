@@ -680,6 +680,10 @@
       {
         "netclass": "AN_GND",
         "pattern": "/3V3"
+      },
+      {
+        "netclass": "LED_GND",
+        "pattern": "/*NEO*POW*"
       }
     ]
   },
