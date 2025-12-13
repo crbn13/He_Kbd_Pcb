@@ -498,7 +498,7 @@
       {
         "name": "AN_PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -512,7 +512,7 @@
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -530,7 +530,7 @@
       {
         "name": "USB_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -662,16 +662,12 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "GND",
-        "pattern": "/ANALOGUE_GND"
-      },
-      {
         "netclass": "NEOPIXEL_SIG",
         "pattern": "/NEOPIXEL_DATA"
       },
       {
         "netclass": "USB_5V",
-        "pattern": "/NEOPIXEL_POWER"
+        "pattern": "/*POWER*"
       },
       {
         "netclass": "SCREW_POST",
@@ -688,6 +684,10 @@
       {
         "netclass": "GND",
         "pattern": "/GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/ANALOGUE_GND"
       }
     ]
   },
