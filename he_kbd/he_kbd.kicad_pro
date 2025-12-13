@@ -838,14 +838,6 @@
     [
       "ec6e5a97-af17-41bd-90dd-eb7235b0e08a",
       "Root"
-    ],
-    [
-      "cb848185-e1ee-4535-a6fa-da8ea1a24798",
-      "leds"
-    ],
-    [
-      "0c4ee235-02a4-4ffd-9058-d6137b17ee03",
-      "Switch profiles"
     ]
   ],
   "text_variables": {}

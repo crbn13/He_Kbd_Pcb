@@ -3495,6 +3495,12 @@
 		(uuid "f9b7cd40-e147-4e18-8eae-e48393b06444")
 	)
 	(junction
+		(at 119.38 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "003b9212-8ab1-49f8-b058-b6bbec367d8e")
+	)
+	(junction
 		(at 124.46 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5520,6 +5526,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 195.58) (xy 87.63 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff2a9ae-fa58-4c50-9f37-d5d74843db54")
+	)
+	(wire
+		(pts
 			(xy 80.01 195.58) (xy 81.28 195.58)
 		)
 		(stroke
@@ -6430,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 210.82) (xy 87.63 210.82)
+			(xy 81.28 210.82) (xy 86.36 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7900,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 203.2) (xy 119.38 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bb5e7f-c345-4d49-a638-5da0d7082b09")
+	)
+	(wire
+		(pts
 			(xy 614.68 74.93) (xy 614.68 125.73)
 		)
 		(stroke
@@ -8780,7 +8806,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 195.58) (xy 87.63 210.82)
+			(xy 86.36 195.58) (xy 86.36 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10949,6 +10975,16 @@
 		)
 		(uuid "0395ae1b-7fea-4285-9077-f95bbabb8bf2")
 	)
+	(label "NP_DAT7"
+		(at 553.72 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03dace1b-01e2-4a54-9126-c141365dc5ed")
+	)
 	(label "hesig12"
 		(at 444.5 114.3 0)
 		(fields_autoplaced yes)
@@ -11020,6 +11056,26 @@
 			(justify left bottom)
 		)
 		(uuid "06fa97f4-dc6e-43cf-aca1-1b7d492aeb60")
+	)
+	(label "NP_DAT4"
+		(at 509.27 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0722dc82-ca78-496c-8efe-1e902017a089")
+	)
+	(label "NP_DAT18"
+		(at 119.38 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0746b4bc-b391-4136-8967-a1826036b539")
 	)
 	(label "USB_5V"
 		(at 438.15 238.76 90)
@@ -11164,6 +11220,16 @@
 		)
 		(uuid "0c7053cd-8a65-4146-baa2-3d0f9a92cfd9")
 	)
+	(label "NP_DAT11"
+		(at 133.35 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c8ad39b-af9e-4104-ac79-8a102d740a95")
+	)
 	(label "MTP_BIN_3"
 		(at 452.12 44.45 90)
 		(effects
@@ -11205,6 +11271,26 @@
 		)
 		(uuid "0d76d623-a930-4732-8653-7e9ce8b7f4d4")
 	)
+	(label "NP_DAT7"
+		(at 194.31 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0df825e1-9836-41d1-bc65-65261da2dbd7")
+	)
+	(label "NP_DAT28"
+		(at 119.38 287.0622 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e629024-1807-4b2c-a6cd-a9b1897e734d")
+	)
 	(label "ANALOGUE_VIN"
 		(at 67.31 146.05 180)
 		(effects
@@ -11214,6 +11300,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e7a3f0c-c4e3-415c-ae27-75088c50c96e")
+	)
+	(label "NP_DAT8"
+		(at 179.07 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e7da401-3cc7-47f8-8bc9-8990811860e8")
 	)
 	(label "ANALOGUE_GND"
 		(at 67.31 116.84 180)
@@ -11387,6 +11483,16 @@
 		)
 		(uuid "1458340b-8e1e-4633-bc77-7413e0b9051b")
 	)
+	(label "NP_DAT3"
+		(at 134.62 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "155371cd-f0bb-47e5-a187-b090a18f441d")
+	)
 	(label "ANALOGUE_VIN"
 		(at 121.92 104.14 0)
 		(effects
@@ -11406,6 +11512,16 @@
 			(justify right bottom)
 		)
 		(uuid "15fd09ee-07ff-40c4-ad2d-f219b5d82f70")
+	)
+	(label "NP_DAT4"
+		(at 149.86 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1754c67a-de7c-4c1e-a23a-c1098fea2b7a")
 	)
 	(label "hesig2"
 		(at 104.14 114.3 180)
@@ -11488,6 +11604,16 @@
 		)
 		(uuid "19a265a4-7cb1-4af8-b1a2-8a91601b9fe5")
 	)
+	(label "NP_DAT12"
+		(at 477.52 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a329c5a-6e01-4501-8e30-88ff5e600d54")
+	)
 	(label "hesig3"
 		(at 104.0631 120.65 180)
 		(fields_autoplaced yes)
@@ -11508,6 +11634,16 @@
 				(justify right)
 			)
 		)
+	)
+	(label "NP_DAT33"
+		(at 464.82 307.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4d9399-259b-49fb-b124-f29d67139fe5")
 	)
 	(label "NEOPIXEL_GND"
 		(at 316.23 201.93 0)
@@ -11538,6 +11674,16 @@
 			(justify left bottom)
 		)
 		(uuid "1d94574e-3e65-4008-b168-6ee2af1ec358")
+	)
+	(label "NP_DAT10"
+		(at 148.59 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc01e50-fca2-43e8-ad97-6fe6bf225b14")
 	)
 	(label "ANALOGUE_VIN"
 		(at 481.33 88.9 0)
@@ -11651,6 +11797,16 @@
 		)
 		(uuid "23406746-8fcf-4659-8aa8-b2c2b536b835")
 	)
+	(label "NP_DAT16"
+		(at 448.31 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "236df38d-7926-4293-a13d-82120aff1707")
+	)
 	(label "ANALOGUE_GND"
 		(at 284.48 120.65 0)
 		(effects
@@ -11702,6 +11858,16 @@
 		)
 		(uuid "2495d2ed-560a-4bd5-a8eb-d30afee3a5a6")
 	)
+	(label "NP_DAT31"
+		(at 434.34 307.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "256c9a6d-d420-4221-8690-d1951ea1342d")
+	)
 	(label "ANALOGUE_VIN"
 		(at 232.41 171.45 180)
 		(effects
@@ -11711,6 +11877,16 @@
 			(justify right bottom)
 		)
 		(uuid "25b2f897-6318-4990-9ff0-ee7d02e43cd4")
+	)
+	(label "NP_DAT12"
+		(at 118.11 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27233304-295e-4d81-bbd1-5de794fb7f4e")
 	)
 	(label "ANALOGUE_VIN"
 		(at 152.4 127 180)
@@ -11772,6 +11948,16 @@
 			(justify left bottom)
 		)
 		(uuid "28f8211a-b425-43d0-97ee-f19cd93eb132")
+	)
+	(label "NP_DAT24"
+		(at 180.34 286.9716 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29035141-392d-43a6-be2e-2849ddabb995")
 	)
 	(label "USB_5V"
 		(at 83.82 294.64 270)
@@ -11863,6 +12049,26 @@
 		)
 		(uuid "2cdbbd60-2b0a-44b4-aebc-2ead25207737")
 	)
+	(label "NP_DAT32"
+		(at 449.58 307.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d040067-0fea-4dba-a461-4f39c3d77889")
+	)
+	(label "NP_DAT11"
+		(at 492.76 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d2b4aba-6518-425a-a9e1-d9f28122a78d")
+	)
 	(label "ANALOGUE_VIN"
 		(at 321.31 219.71 0)
 		(fields_autoplaced yes)
@@ -11915,6 +12121,16 @@
 		)
 		(uuid "2f2da738-e106-4e68-a503-d54be0ad2139")
 	)
+	(label "NP_DAT19"
+		(at 494.03 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f965d99-ef0b-454e-a216-7ec395bd2631")
+	)
 	(label "ANALOGUE_GND"
 		(at 121.92 114.3 0)
 		(effects
@@ -11964,6 +12180,16 @@
 			(justify right bottom)
 		)
 		(uuid "3166fb7d-28ad-43ea-86c9-07bda1f6505f")
+	)
+	(label "NP_DAT25"
+		(at 524.51 271.7316 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "321baa40-33a0-4c70-adf3-f4fcbe3e9fbe")
 	)
 	(label "NEOPIXEL_GND"
 		(at 275.59 285.75 180)
@@ -12066,6 +12292,16 @@
 		)
 		(uuid "387c1971-f551-4322-95d4-e134dbff218e")
 	)
+	(label "NP_DAT27"
+		(at 494.03 271.7316 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a35b3b6-f053-4fd3-adb2-5b28bb5a6806")
+	)
 	(label "GND"
 		(at 154.94 77.47 180)
 		(effects
@@ -12126,6 +12362,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b7c3070-8200-44fd-9cc6-fe15dd417d17")
+	)
+	(label "NP_DAT16"
+		(at 88.9 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d554afd-1885-43e5-871e-203143e173a5")
 	)
 	(label "hesig17"
 		(at 189.23 107.95 180)
@@ -12445,6 +12691,16 @@
 		)
 		(uuid "44f95ce1-83c8-449a-9671-d050126e0746")
 	)
+	(label "NP_DAT20"
+		(at 509.27 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "450fb3ef-bb59-405b-9b88-ba478e21fdb8")
+	)
 	(label "ANALOGUE_VIN"
 		(at 152.4 133.35 180)
 		(effects
@@ -12516,6 +12772,16 @@
 		)
 		(uuid "46ce1c53-a43e-4a48-a3d0-6ae9b1d0af12")
 	)
+	(label "NP_DAT23"
+		(at 554.99 271.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46f77980-dadd-4614-a5dc-7d3367f7da02")
+	)
 	(label "ANALOGUE_GND"
 		(at 207.01 139.7 0)
 		(effects
@@ -12525,6 +12791,16 @@
 			(justify left bottom)
 		)
 		(uuid "470aa282-7cd5-4d4a-a940-27d1184c2453")
+	)
+	(label "NP_DAT25"
+		(at 165.1 286.9716 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "478f0849-4b52-4ca5-880e-26011e8b971b")
 	)
 	(label "NEOPIXEL_GND"
 		(at 111.76 210.82 0)
@@ -12708,6 +12984,16 @@
 			(justify left bottom)
 		)
 		(uuid "50f8f81c-845f-4c95-9e62-4833c3450be7")
+	)
+	(label "NP_DAT3"
+		(at 494.03 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5138b930-ee14-4606-b0c9-433f2f327cc7")
 	)
 	(label "NEOPIXEL_GND"
 		(at 171.45 218.44 180)
@@ -12900,6 +13186,16 @@
 		)
 		(uuid "5bf80e34-1853-43d6-8bfd-a58bb4276240")
 	)
+	(label "NP_DAT5"
+		(at 524.51 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c33c047-848a-44bc-b274-2c05b9deabf0")
+	)
 	(label "USB_5V"
 		(at 439.42 299.72 90)
 		(effects
@@ -12960,6 +13256,16 @@
 				(justify right)
 			)
 		)
+	)
+	(label "NP_DAT32"
+		(at 90.17 322.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62f4e89a-feee-4ff2-b4fc-2f73c582ad8f")
 	)
 	(label "ANALOGUE_VIN"
 		(at 207.01 116.84 0)
@@ -13125,6 +13431,16 @@
 		)
 		(uuid "6bcfb2a5-f832-4699-92ba-cdd60199ab3c")
 	)
+	(label "NP_DAT23"
+		(at 195.58 287.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7ea160-064b-437a-97d1-d6adaad97a1c")
+	)
 	(label "hesig24"
 		(at 187.96 152.4 180)
 		(fields_autoplaced yes)
@@ -13267,6 +13583,16 @@
 		)
 		(uuid "72885906-ad02-4342-93f0-5b368e468fcf")
 	)
+	(label "NP_DAT30"
+		(at 448.31 271.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "729519fe-1221-4a5f-81cd-0c5f5ffd6abe")
+	)
 	(label "NEOPIXEL_GND"
 		(at 110.49 218.44 180)
 		(effects
@@ -13276,6 +13602,16 @@
 			(justify right bottom)
 		)
 		(uuid "72f7945e-3f0f-4eb7-8d40-d2d9bce8b1ff")
+	)
+	(label "NP_DAT1"
+		(at 463.55 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72f8c195-df36-4347-95b6-64ba8b5d4fd0")
 	)
 	(label "hesig23"
 		(at 189.23 146.05 180)
@@ -13317,6 +13653,16 @@
 			(justify left bottom)
 		)
 		(uuid "738a9805-c6a5-4fcf-8272-a09dec94b083")
+	)
+	(label "NP_DAT19"
+		(at 134.62 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "757e3bb3-e861-4cdf-97dc-4d9c9737bcd4")
 	)
 	(label "hesig4"
 		(at 463.55 111.76 180)
@@ -13471,6 +13817,16 @@
 		)
 		(uuid "7a2710ab-f1be-410c-8bf1-b6ed950cca43")
 	)
+	(label "NP_DAT29"
+		(at 463.55 271.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a679019-5673-412f-afee-7193b542f268")
+	)
 	(label "ANALOGUE_GND"
 		(at 426.72 133.35 180)
 		(effects
@@ -13520,6 +13876,16 @@
 			(justify left bottom)
 		)
 		(uuid "7c6f55bd-3021-4239-b180-daeb6d51f727")
+	)
+	(label "NP_DAT2"
+		(at 478.79 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7edcbcc0-5fdb-4c34-8b69-dc5a8d73be21")
 	)
 	(label "NEOPIXEL_GND"
 		(at 675.64 186.69 0)
@@ -13591,6 +13957,16 @@
 		)
 		(uuid "81c66948-a7cc-47b5-b7c2-a97154b04e6e")
 	)
+	(label "NP_DAT21"
+		(at 524.51 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "822161bf-5327-41a7-a49d-e5e0f40f52f0")
+	)
 	(label "ADC_0"
 		(at 665.48 247.65 0)
 		(effects
@@ -13651,6 +14027,16 @@
 			(justify left bottom)
 		)
 		(uuid "841058ae-46c4-4cc5-a51e-45086ef373a9")
+	)
+	(label "NP_DAT31"
+		(at 74.93 322.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d0c5d8-d4e4-4bdb-b8c8-352a3b814610")
 	)
 	(label "NEOPIXEL_GND"
 		(at 111.76 269.24 0)
@@ -14039,6 +14425,16 @@
 		)
 		(uuid "9448e057-0730-48e5-9c0c-9ac11c5bd87e")
 	)
+	(label "NP_DAT2"
+		(at 119.38 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94742940-c86b-48e4-b21c-bc3378a5fcc7")
+	)
 	(label "3V3"
 		(at 241.3 265.43 270)
 		(effects
@@ -14209,6 +14605,26 @@
 		)
 		(uuid "97dd040e-239c-41f4-bdee-ee57e165b986")
 	)
+	(label "NP_DAT29"
+		(at 104.14 287.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "983be5c1-e57b-4eca-bbcd-81c7f9e8cc8f")
+	)
+	(label "NP_DAT1"
+		(at 104.14 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99caa28f-3d03-45b2-ab98-38bd693de39d")
+	)
 	(label "GND"
 		(at 429.26 62.23 180)
 		(effects
@@ -14228,6 +14644,16 @@
 			(justify right bottom)
 		)
 		(uuid "9addd794-7523-4f82-973c-ffadaef0f9ac")
+	)
+	(label "NP_DAT6"
+		(at 539.75 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c27601e-724e-4f90-a02d-5dcc773fc08f")
 	)
 	(label "USB_5V"
 		(at 93.98 195.58 90)
@@ -14299,6 +14725,16 @@
 		)
 		(uuid "9e12644b-16b8-42ca-b329-c344d08583a4")
 	)
+	(label "NP_DAT9"
+		(at 163.83 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e5ee9bf-1e2f-4177-b0e2-b90efc46f859")
+	)
 	(label "ANALOGUE_VIN"
 		(at 566.42 127 0)
 		(effects
@@ -14338,6 +14774,16 @@
 			(justify right bottom)
 		)
 		(uuid "a1259eb4-b5ec-4a0b-82a3-65193fd5ab71")
+	)
+	(label "NP_DAT8"
+		(at 538.48 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1337e79-6427-4385-8640-df0f8a3cad73")
 	)
 	(label "ANALOGUE_VIN"
 		(at 566.42 101.6 0)
@@ -14389,6 +14835,16 @@
 		)
 		(uuid "a20409ef-76e0-415c-9024-8fc333b10f78")
 	)
+	(label "NP_DAT26"
+		(at 509.27 271.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a21eb3ca-0ebe-4773-875c-cfd37b6b0432")
+	)
 	(label "I2C_0_SDA"
 		(at 666.75 232.41 0)
 		(effects
@@ -14408,6 +14864,16 @@
 			(justify right bottom)
 		)
 		(uuid "a2e5e1c6-3cff-46c7-a9a7-b408af131182")
+	)
+	(label "NP_DAT14"
+		(at 87.63 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a375c22e-e4ff-4752-88cc-d464682a6a25")
 	)
 	(label "NEOPIXEL_GND"
 		(at 500.38 203.2 180)
@@ -14429,6 +14895,16 @@
 		)
 		(uuid "a4cafad9-c215-49c1-be9c-108d17d43ae3")
 	)
+	(label "NP_DAT13"
+		(at 462.28 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4f0b6ea-95ab-4135-81a9-284a62651f84")
+	)
 	(label "USB_5V"
 		(at 544.83 238.76 90)
 		(effects
@@ -14448,6 +14924,16 @@
 			(justify left bottom)
 		)
 		(uuid "a568949a-c8f2-4707-bb17-4445903d8571")
+	)
+	(label "NP_DAT15"
+		(at 73.66 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a66f603a-3264-473c-94e0-daea27ad530b")
 	)
 	(label "NEOPIXEL_POWER"
 		(at 121.92 176.53 180)
@@ -14529,6 +15015,16 @@
 			(justify left bottom)
 		)
 		(uuid "aa7651e5-dd53-4c0a-84b1-16a01687665c")
+	)
+	(label "NP_DAT0"
+		(at 88.9 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aae48ec1-83ff-45b9-b4a6-13e66e07ef10")
 	)
 	(label "hesig10"
 		(at 444.5 127 0)
@@ -14865,6 +15361,26 @@
 		)
 		(uuid "b6445f4d-b216-47a3-8f4c-e8eeeb9584fd")
 	)
+	(label "NP_DAT30"
+		(at 88.9 287.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b66d84d5-2447-4567-b3e0-05148d2ea80d")
+	)
+	(label "NP_DAT24"
+		(at 539.75 271.7316 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6c155b9-f7a5-4b25-84d3-0db83a4d5795")
+	)
 	(label "ANALOGUE_GND"
 		(at 426.72 127 180)
 		(effects
@@ -14875,6 +15391,16 @@
 		)
 		(uuid "b6ff6a76-f77f-4e5c-a0d1-cf8b0af9c1bc")
 	)
+	(label "NP_DAT17"
+		(at 463.55 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b733aeb0-3179-4d31-b714-da84eed87c32")
+	)
 	(label "MTP_BIN_1"
 		(at 245.11 237.49 180)
 		(effects
@@ -14884,6 +15410,16 @@
 			(justify right bottom)
 		)
 		(uuid "b760cdb3-1bc8-440e-9830-0e4d34ec64f1")
+	)
+	(label "NP_DAT0"
+		(at 448.31 187.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7d5958e-6ce3-47c9-9d92-a1dcc3ebc688")
 	)
 	(label "USB_5V"
 		(at 129.54 294.64 270)
@@ -14987,6 +15523,26 @@
 			)
 		)
 	)
+	(label "NP_DAT18"
+		(at 478.79 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd2e5633-0c31-4551-afd3-6903a2836a42")
+	)
+	(label "NP_DAT17"
+		(at 104.14 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdc1a84b-32d4-4f1e-82e0-75ccbbc605d1")
+	)
 	(label "ANALOGUE_VIN"
 		(at 426.72 130.81 180)
 		(effects
@@ -15087,6 +15643,26 @@
 			(justify right bottom)
 		)
 		(uuid "c50de7fa-6257-408f-a533-f452c94ef38e")
+	)
+	(label "NP_DAT33"
+		(at 105.41 322.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c51e04ca-80cd-4aea-8b8d-656a8737c07a")
+	)
+	(label "NP_DAT28"
+		(at 478.79 271.8222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c520c238-6c3c-41da-acb2-3606cab7b63e")
 	)
 	(label "USB_5V"
 		(at 454.66 299.72 90)
@@ -15273,6 +15849,16 @@
 			)
 		)
 	)
+	(label "NP_DAT14"
+		(at 447.04 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfc0efdd-d8bb-45a0-9ea3-01814f93a760")
+	)
 	(label "hesig31"
 		(at 529.59 95.25 0)
 		(fields_autoplaced yes)
@@ -15294,6 +15880,16 @@
 			)
 		)
 	)
+	(label "NP_DAT22"
+		(at 180.34 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cff0fae5-4ccb-4b48-8e4b-1085bb1db6c2")
+	)
 	(label "USB_5V"
 		(at 158.75 233.68 270)
 		(effects
@@ -15303,6 +15899,16 @@
 			(justify right bottom)
 		)
 		(uuid "d0003b42-f830-41b4-9dc1-77e7e6139bf3")
+	)
+	(label "NP_DAT27"
+		(at 134.62 286.9716 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0292f45-9e23-4452-b2dc-81467fbe3ba0")
 	)
 	(label "ANALOGUE_GND"
 		(at 511.81 127 180)
@@ -15497,6 +16103,16 @@
 		)
 		(uuid "d6fc3fb9-3a18-4367-a4e3-f85f8b71de25")
 	)
+	(label "NP_DAT26"
+		(at 149.86 287.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7b786c3-be65-49f8-a59c-37d7e5a3b3d3")
+	)
 	(label "MTP_BIN_3"
 		(at 177.8 59.69 90)
 		(effects
@@ -15620,6 +16236,16 @@
 		)
 		(uuid "dd68282e-18f5-4f42-869c-ff9d2b0fab3a")
 	)
+	(label "NP_DAT13"
+		(at 102.87 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd7aad9c-6a8a-4456-ae04-d711f1d2a958")
+	)
 	(label "GND"
 		(at 591.82 62.23 180)
 		(effects
@@ -15691,6 +16317,16 @@
 		)
 		(uuid "df275283-630b-4312-be32-a463c04e4249")
 	)
+	(label "NP_DAT21"
+		(at 165.1 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df3086bf-2e17-4709-b2e0-3358e2f4780d")
+	)
 	(label "MTP_BIN_1"
 		(at 619.76 44.45 90)
 		(effects
@@ -15730,6 +16366,16 @@
 			(justify right bottom)
 		)
 		(uuid "e0114503-9a9b-491d-a2d2-c43038dbadcf")
+	)
+	(label "NP_DAT9"
+		(at 523.24 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e19106b0-9391-464f-a9bf-31096d3c06e5")
 	)
 	(label "USB_5V"
 		(at 548.64 218.44 270)
@@ -15883,6 +16529,16 @@
 		)
 		(uuid "e8b5827a-fb61-4efa-b32d-bba586769238")
 	)
+	(label "NP_DAT20"
+		(at 149.86 261.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e91556e0-2138-4dd4-b6ed-6f066b7b2b92")
+	)
 	(label "USB_5V"
 		(at 468.63 238.76 90)
 		(effects
@@ -15913,6 +16569,16 @@
 				(justify left)
 			)
 		)
+	)
+	(label "NP_DAT5"
+		(at 165.1 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea79fd20-1519-4efd-8e83-e68328aeb47e")
 	)
 	(label "ANALOGUE_VIN"
 		(at 121.92 135.89 0)
@@ -15985,6 +16651,16 @@
 		)
 		(uuid "ec303fbc-3607-4168-9024-14c7ec0c6a00")
 	)
+	(label "NP_DAT10"
+		(at 508 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec7087aa-a349-4be3-b005-742d6e66a38e")
+	)
 	(label "hesig31"
 		(at 170.18 110.49 0)
 		(fields_autoplaced yes)
@@ -16035,6 +16711,16 @@
 			(justify left bottom)
 		)
 		(uuid "eeb499e3-b6db-49bd-9385-360f06004703")
+	)
+	(label "NP_DAT22"
+		(at 539.75 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eedb15cd-a62c-44b8-b644-9518f89d3ce2")
 	)
 	(label "USB_5V"
 		(at 676.91 182.88 0)
@@ -16145,6 +16831,16 @@
 			(justify left bottom)
 		)
 		(uuid "f59201b5-59a0-47b8-bec3-30fc606b76d8")
+	)
+	(label "NP_DAT6"
+		(at 180.34 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f613eb6f-3da6-4145-98ad-5de688bbca40")
 	)
 	(label "ANALOGUE_VIN"
 		(at 207.01 129.54 0)
@@ -16275,6 +16971,16 @@
 			(justify left bottom)
 		)
 		(uuid "fefef770-b221-4af9-82e6-4abc5871e4ad")
+	)
+	(label "NP_DAT15"
+		(at 433.07 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7daf12-bbc7-4b19-9a1a-b675be7c1441")
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
