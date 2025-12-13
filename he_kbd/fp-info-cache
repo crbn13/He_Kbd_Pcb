@@ -1,4 +1,4 @@
-46823622049914980
+46825387707083374
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -185823,6 +185823,13 @@ Varistor VF
 2
 he_kbd_footprint
 Analogue_sensor_and_switch_profile
+
+
+0
+3
+3
+he_kbd_footprint
+Analogue_sensor_and_switch_profile_NO_HOLES
 
 
 0

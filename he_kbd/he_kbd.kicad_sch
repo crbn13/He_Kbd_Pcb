@@ -16512,7 +16512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 107.696 0)
 			(effects
 				(font
@@ -16660,7 +16660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 126.746 0)
 			(effects
 				(font
@@ -18615,7 +18615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 120.396 0)
 			(effects
 				(font
@@ -18761,7 +18761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 107.696 0)
 			(effects
 				(font
@@ -19405,7 +19405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 86.614 0)
 			(effects
 				(font
@@ -19766,7 +19766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 118.364 0)
 			(effects
 				(font
@@ -20469,7 +20469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 131.064 0)
 			(effects
 				(font
@@ -20894,7 +20894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 112.014 0)
 			(effects
 				(font
@@ -21478,7 +21478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 112.014 0)
 			(effects
 				(font
@@ -21902,7 +21902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 105.664 0)
 			(effects
 				(font
@@ -22259,7 +22259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 114.046 0)
 			(effects
 				(font
@@ -22468,7 +22468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 634.746 107.696 0)
 			(effects
 				(font
@@ -22541,7 +22541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 133.096 0)
 			(effects
 				(font
@@ -22614,7 +22614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 92.964 0)
 			(effects
 				(font
@@ -23108,7 +23108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 139.446 0)
 			(effects
 				(font
@@ -23181,7 +23181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 634.746 101.346 0)
 			(effects
 				(font
@@ -23884,7 +23884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 94.996 0)
 			(effects
 				(font
@@ -24399,7 +24399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 124.714 0)
 			(effects
 				(font
@@ -24542,7 +24542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 118.364 0)
 			(effects
 				(font
@@ -26365,7 +26365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 99.314 0)
 			(effects
 				(font
@@ -26438,7 +26438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 139.446 0)
 			(effects
 				(font
@@ -27799,7 +27799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 634.746 94.996 0)
 			(effects
 				(font
@@ -29439,7 +29439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 124.714 0)
 			(effects
 				(font
@@ -29512,7 +29512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 101.346 0)
 			(effects
 				(font
@@ -29793,7 +29793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 101.346 0)
 			(effects
 				(font
@@ -29866,7 +29866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 114.046 0)
 			(effects
 				(font
@@ -30516,7 +30516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 99.314 0)
 			(effects
 				(font
@@ -30589,7 +30589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 105.664 0)
 			(effects
 				(font
@@ -31231,7 +31231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 126.746 0)
 			(effects
 				(font
@@ -31828,7 +31828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 94.996 0)
 			(effects
 				(font
@@ -32395,7 +32395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 472.186 120.396 0)
 			(effects
 				(font
@@ -32602,7 +32602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 557.276 133.096 0)
 			(effects
 				(font
@@ -34521,7 +34521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 92.964 0)
 			(effects
 				(font
@@ -35453,7 +35453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 435.864 131.064 0)
 			(effects
 				(font
@@ -35526,7 +35526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile"
+		(property "Footprint" "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 			(at 520.954 86.614 0)
 			(effects
 				(font
