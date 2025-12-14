@@ -62598,7 +62598,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "07b3897e-5d07-4e3a-b8c8-78ffdbe0db42")
-		(at 50.140183 68.594942 180)
+		(at 69.270183 64.014942 180)
 		(property "Reference" "HE_59"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -63832,7 +63832,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "0db90c86-40d7-40f5-9cf0-17c5ab5d389f")
-		(at 107.582683 19.754942 180)
+		(at 107.300183 45.054942 180)
 		(property "Reference" "HE_53"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -77032,7 +77032,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "59bd8a80-7ac4-4529-98a2-4d519f6813a6")
-		(at 111.980183 63.304942 180)
+		(at 107.242683 64.134942 180)
 		(property "Reference" "HE_57"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -81188,7 +81188,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "6d5dfd46-7692-4ee8-8ac2-d85618768cd4")
-		(at 126.342683 20.184942 180)
+		(at 126.370183 46.974942 180)
 		(property "Reference" "HE_54"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -83070,7 +83070,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "7eea6cb8-ba21-4858-b2fd-00c932f4a719")
-		(at 126.345183 46.979942 180)
+		(at 28.538986 87.601648 180)
 		(property "Reference" "HE_65"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -83718,7 +83718,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "7ef20876-86c3-4942-b1dc-1e365a5613d7")
-		(at 145.850183 23.094942 180)
+		(at 145.425183 56.479942 180)
 		(property "Reference" "HE_55"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -90684,7 +90684,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "9d308847-9b24-4bc1-ae27-6a9dd2baa064")
-		(at 135.470183 66.814942 180)
+		(at 126.369303 66.031751 180)
 		(property "Reference" "HE_56"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -92254,7 +92254,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "a649f7e9-6304-4597-a90a-0914e685d23d")
-		(at 28.540183 68.544942 180)
+		(at 88.250183 61.594942 180)
 		(property "Reference" "HE_58"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -93862,7 +93862,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "ac421fc8-df7f-49dc-b8e5-320f246d70f0")
-		(at 88.240183 42.527078 180)
+		(at 50.160183 68.594942 180)
 		(property "Reference" "HE_67"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -95470,7 +95470,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "bfb95e06-af28-40ca-8b21-d2fe93d5597e")
-		(at 107.290183 45.044942 180)
+		(at 28.560183 68.544942 180)
 		(property "Reference" "HE_66"
 			(at -0.5 4.5 0)
 			(unlocked yes)
@@ -100780,7 +100780,7 @@
 	(footprint "he_kbd_footprint:Analogue_sensor_and_switch_profile_NO_HOLES"
 		(layer "B.Cu")
 		(uuid "d9c83ba0-4e52-4ac1-9b1a-32271cfe59a1")
-		(at 88.390183 18.794942 180)
+		(at 88.260183 42.524942 180)
 		(property "Reference" "HE_52"
 			(at -0.5 4.5 0)
 			(unlocked yes)
