@@ -503,7 +503,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "AN_SIG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
