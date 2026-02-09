@@ -16,3 +16,6 @@ Change layout, dont run parallel lines on both sides of pcb, use perpendicular l
 LHS:
 fix position of HE sensors and leds
 Fix schematic nets
+
+Check grounding connections for multiplexers
+Check DRC
