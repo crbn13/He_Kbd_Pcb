@@ -490,39 +490,49 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "name": "AN_GND",
+        "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4
+      },
+      {
+        "name": "AN_PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.2,
         "name": "AN_SIG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
+        "track_width": 0.1,
+        "via_diameter": 0.3
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.3,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LED_GND",
-        "pcb_color": "rgb(255, 29, 0)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "NEOPIXEL_SIG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SCREW_POST",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USB_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -654,36 +664,40 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "AN_GND",
-        "pattern": "/ANALOGUE_GND"
+        "netclass": "NEOPIXEL_SIG",
+        "pattern": "/NEOPIXEL_DATA"
       },
       {
-        "netclass": "AN_GND",
-        "pattern": "/ANALOGUE_VIN"
-      },
-      {
-        "netclass": "LED_GND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "AN_SIG",
-        "pattern": "NEOPIXEL_DATA"
-      },
-      {
-        "netclass": "LED_GND",
-        "pattern": "NEOPIXEL_POWER"
+        "netclass": "USB_5V",
+        "pattern": "/*POWER*"
       },
       {
         "netclass": "SCREW_POST",
         "pattern": "SCREW_POST_ISOLATE"
       },
       {
-        "netclass": "AN_GND",
+        "netclass": "3V3",
         "pattern": "/3V3"
       },
       {
-        "netclass": "LED_GND",
-        "pattern": "/*NEO*POW*"
+        "netclass": "USB_5V",
+        "pattern": "/USB_5V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/ANALOGUE_GND"
+      },
+      {
+        "netclass": "AN_SIG",
+        "pattern": "/hesig*"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "/3V*"
       }
     ]
   },
