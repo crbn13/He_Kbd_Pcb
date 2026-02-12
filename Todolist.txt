@@ -1,17 +1,9 @@
 
 Fix Analogue power to ADC_VREF PIn, should go to 3.3v
 
-Fix Orientation of Incorrectly oritented switches
 
-Switch 32 not grounded properly , possibly  more  [ turns out this shows up on DRC, not sure how i missed that :( ]
 
-HE9 analogue trace too close to power pin of multiplexer
 
-ADD 100nf capacitors for multiplexers !!! 
-
-Find out if disconnected ground planes are dumb (probably are)
-
-Change layout, dont run parallel lines on both sides of pcb, use perpendicular lines
 
 LHS:
 fix position of HE sensors and leds
